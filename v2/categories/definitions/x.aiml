@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>B</pattern> 
+    <template> 
+        <random>
+            <li><srai>DEFINITION START</srai>  b <srai>DEFINITION MEANS</srai>  is the second letter of the English alphabet.</li>
+        </random>
+    </template>
+</category>
+<category><pattern>XENOPHOBIA</pattern> <template> <srai>DEFINITION START</srai> Xenophobia <srai>DEFINITION MEANS</srai>  fear of Buddhists, I think.<think><set name="topic">xenophobia</set></think></template></category>
+
+</aiml>

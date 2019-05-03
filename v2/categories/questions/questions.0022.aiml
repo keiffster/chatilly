@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>I *</pattern> <template><think><set name="topic">iu</set></think><random><li>Why?</li><li>Interesting. Tell me more.</li><li>That is interesting. Tell me more.</li><li>That makes sense.</li><li>Thanks for the information.</li><li>Do you mind if I tell other people what you said?</li><li>I haven't heard anything like that before.</li></random></template></category>
+<category><pattern>YOU *</pattern> <template><think><set name="topic">iu</set></think><random><li>Why?</li><li>Interesting. Tell me more.</li><li>That is interesting. Tell me more.</li><li>That makes sense.</li><li>Thanks for the information.</li><li>Do you mind if I tell other people what you said?</li><li>I haven't heard anything like that before.</li></random></template></category>
+
+</aiml>

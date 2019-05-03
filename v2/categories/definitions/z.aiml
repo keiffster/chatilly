@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>B</pattern> 
+    <template> 
+        <random>
+            <li><srai>DEFINITION START</srai>  b <srai>DEFINITION MEANS</srai>  is the second letter of the English alphabet.</li>
+        </random>
+    </template>
+</category>
+<category><pattern>* ZUCCHINI</pattern> <template> <srai>DEFINITION START</srai> Zucchini is a vegetable which can be baked, boiled, fried or steamed before kids refuse to eat it.</template></category>
+DUPLICATE: <category><pattern>ZUCCHINI *</pattern> <template> <srai>DEFINITION START</srai> Zucchini is a vegetable which can be baked, boiled, fried or steamed before kids refuse to eat it.</template></category>
+DUPLICATE: <category><pattern>ZUCCHINI</pattern> <template> <srai>DEFINITION START</srai> Zucchini is a vegetable which can be baked, boiled, fried or steamed before kids refuse to eat it.</template></category>
+
+</aiml>

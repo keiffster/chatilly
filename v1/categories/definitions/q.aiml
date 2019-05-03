@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>
+			Q
+		</pattern>
+		<template>
+			q?  Briefly, q means the 17th letter of the Roman alphabet.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			Q FEVER
+		</pattern>
+		<template>
+			q fever?  Briefly, q fever means an acute disease resembling influenza.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QABALA
+		</pattern>
+		<template>
+			qabala?  Briefly, qabala means an esoteric or occult matter resembling the Kabbalah that is traditionally secret.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QABALAH
+		</pattern>
+		<template>
+			qabalah?  Briefly, qabalah means an esoteric or occult matter resembling the Kabbalah that is traditionally secret.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QABALISTIC
+		</pattern>
+		<template>
+			qabalistic?  Briefly, qabalistic means having a secret or hidden meaning- John Gunther.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QABBALA
+		</pattern>
+		<template>
+			qabbala?  Briefly, qabbala means an esoteric theosophy of rabbinical origin based on the Hebrew scriptures and developed between the 7th and 18th centuries.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QABBALAH
+		</pattern>
+		<template>
+			qabbalah?  Briefly, qabbalah means an esoteric theosophy of rabbinical origin based on the Hebrew scriptures and developed between the 7th and 18th centuries.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QADDAFI
+		</pattern>
+		<template>
+			qaddafi?  Briefly, qaddafi means Libyan leader who seized power in a military coup d'etat in 1969; deposed the Libyan monarchy and imposed socialism and Islamic orthodoxy on the country (born in 1942).
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QADHAFI
+		</pattern>
+		<template>
+			qadhafi?  Briefly, qadhafi means Libyan leader who seized power in a military coup d'etat in 1969; deposed the Libyan monarchy and imposed socialism and Islamic orthodoxy on the country (born in 1942).
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QADI
+		</pattern>
+		<template>
+			qadi?  Briefly, qadi means an Islamic judge.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QAEDA
+		</pattern>
+		<template>
+			qaeda?  Briefly, qaeda means an intensely anti-western terrorist network that dispenses money and logistical support and training to a wide variety of radical Islamic terrorist group; has cells in more than 50 countries.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QANDAHAR
+		</pattern>
+		<template>
+			qandahar?  Briefly, qandahar means a city in southern Afghanistan; an important trading center.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QASSAM BRIGADES
+		</pattern>
+		<template>
+			qassam brigades?  Briefly, qassam brigades means the military arm of Hamas responsible for suicide bombings and other attacks on Israel.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QAT
+		</pattern>
+		<template>
+			qat?  Briefly, qat means the leaves of the shrub Catha edulis which are chewed like tobacco or used to make tea; has the effect of a euphoric stimulant.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QATAR
+		</pattern>
+		<template>
+			qatar?  Briefly, qatar means an Arab country on the peninsula of Qatar; achieved independence from the United Kingdom in 1971; the economy is dominated by oil.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QATAR PENINSULA
+		</pattern>
+		<template>
+			qatar peninsula?  Briefly, qatar peninsula means a peninsula extending northward from the Arabian mainland into the Persian Gulf.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QATARI
+		</pattern>
+		<template>
+			qatari?  Briefly, qatari means a native or inhabitant of Qatar.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QATARI DIRHAM
+		</pattern>
+		<template>
+			qatari dirham?  Briefly, qatari dirham means 100 dirhams equal 1 riyal.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QATARI MONETARY UNIT
+		</pattern>
+		<template>
+			qatari monetary unit?  Briefly, qatari monetary unit means monetary unit in Qatar.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QATARI RIYAL
+		</pattern>
+		<template>
+			qatari riyal?  Briefly, qatari riyal means the basic unit of money in Qatar.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QCD
+		</pattern>
+		<template>
+			qcd?  Briefly, qcd means a theory of strong interactions between elementary particles (including the interaction that binds protons and neutrons in the nucleus); it assumes that strongly interacting particles (hadrons) are made of quarks and that gluons bind th.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QED
+		</pattern>
+		<template>
+			qed?  Briefly, qed means a relativistic quantum theory of the electromagnetic interactions of photons and electrons and muons.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QEPIQ
+		</pattern>
+		<template>
+			qepiq?  Briefly, qepiq means 100 qepiq equal 1 manat.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QI
+		</pattern>
+		<template>
+			qi?  Briefly, qi means the circulating life energy that in Chinese philosophy is thought to be inherent in all things; in traditional Chinese medicine the balance of negative and positive forms in the body is believed to be essential for good health.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QIANG
+		</pattern>
+		<template>
+			qiang?  Briefly, qiang means the Tibeto-Burman language spoken in Sichuan.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QIANGIC
+		</pattern>
+		<template>
+			qiangic?  Briefly, qiangic means the Tibeto-Burman language spoken in Sichuan.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QIBLA
+		</pattern>
+		<template>
+			qibla?  Briefly, qibla means the direction of the Kaaba toward which Muslims turn for their daily prayers.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QINDARKA
+		</pattern>
+		<template>
+			qindarka?  Briefly, qindarka means 100 qindarka equal 1 lek.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QING
+		</pattern>
+		<template>
+			qing?  Briefly, qing means the last imperial dynasty of China (from 1644 to 1912) which was overthrown by revolutionaries; during the Qing dynasty China was ruled by the Manchu.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QING DYNASTY
+		</pattern>
+		<template>
+			qing dynasty?  Briefly, qing dynasty means the last imperial dynasty of China (from 1644 to 1912) which was overthrown by revolutionaries; during the Qing dynasty China was ruled by the Manchu.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QINTAR
+		</pattern>
+		<template>
+			qintar?  Briefly, qintar means 100 qindarka equal 1 lek.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QOPH
+		</pattern>
+		<template>
+			qoph?  Briefly, qoph means the 19th letter of the Hebrew alphabet.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAALUDE
+		</pattern>
+		<template>
+			quaalude?  Briefly, quaalude means sedative-hypnotic drug (trade name Quaalude) that is a drug of abuse.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUACK
+		</pattern>
+		<template>
+			quack?  Briefly, quack means an untrained person who pretends to be a physician and who dispenses medical advice.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUACK GRASS
+		</pattern>
+		<template>
+			quack grass?  Briefly, quack grass means European grass spreading rapidly by creeping rhizomes; naturalized in North America as a weed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUACKERY
+		</pattern>
+		<template>
+			quackery?  Briefly, quackery means medical practice and advice based on observation and experience in ignorance of scientific findings.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUACKGRASS
+		</pattern>
+		<template>
+			quackgrass?  Briefly, quackgrass means European grass spreading rapidly by creeping rhizomes; naturalized in North America as a weed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUACK-QUACK
+		</pattern>
+		<template>
+			quack-quack?  Briefly, quack-quack means child's word for a duck.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAD
+		</pattern>
+		<template>
+			quad?  Briefly, quad means one of four children born at the same time from the same pregnancy.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRAGESIMA
+		</pattern>
+		<template>
+			quadragesima?  Briefly, quadragesima means the first Sunday in Lent.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRANGLE
+		</pattern>
+		<template>
+			quadrangle?  Briefly, quadrangle means a four-sided polygon.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRANGULAR
+		</pattern>
+		<template>
+			quadrangular?  Briefly, quadrangular means of or relating to or shaped like a quadrangle.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRANGULAR PRISM
+		</pattern>
+		<template>
+			quadrangular prism?  Briefly, quadrangular prism means a prism whose bases are quadrangles.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRANT
+		</pattern>
+		<template>
+			quadrant?  Briefly, quadrant means a quarter of the circumference of a circle.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRANTANOPIA
+		</pattern>
+		<template>
+			quadrantanopia?  Briefly, quadrantanopia means blindness in one fourth of the visual field.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRAPHONIC
+		</pattern>
+		<template>
+			quadraphonic?  Briefly, quadraphonic means of or relating to quadraphony.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRAPHONIC SYSTEM
+		</pattern>
+		<template>
+			quadraphonic system?  Briefly, quadraphonic system means a stereophonic sound recording or reproducing system system using four separate channels.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRAPHONY
+		</pattern>
+		<template>
+			quadraphony?  Briefly, quadraphony means a stereophonic sound recording or reproducing system system using four separate channels.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRASONIC
+		</pattern>
+		<template>
+			quadrasonic?  Briefly, quadrasonic means of or relating to quadraphony.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRATE
+		</pattern>
+		<template>
+			quadrate?  Briefly, quadrate means a cubelike object.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRATIC
+		</pattern>
+		<template>
+			quadratic?  Briefly, quadratic means an equation in which the highest power of an unknown quantity is a square.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRATIC EQUATION
+		</pattern>
+		<template>
+			quadratic equation?  Briefly, quadratic equation means an equation in which the highest power of an unknown quantity is a square.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRATIC POLYNOMIAL
+		</pattern>
+		<template>
+			quadratic polynomial?  Briefly, quadratic polynomial means a polynomial of the second degree.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRATICS
+		</pattern>
+		<template>
+			quadratics?  Briefly, quadratics means a branch of algebra dealing with quadratic equations.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRATURE
+		</pattern>
+		<template>
+			quadrature?  Briefly, quadrature means the construction of a square having the same area as some other figure.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIC
+		</pattern>
+		<template>
+			quadric?  Briefly, quadric means a curve or surface whose equation (in Cartesian coordinates) is of the second degree.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIC SURFACE
+		</pattern>
+		<template>
+			quadric surface?  Briefly, quadric surface means a curve or surface whose equation (in Cartesian coordinates) is of the second degree.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRICEPS
+		</pattern>
+		<template>
+			quadriceps?  Briefly, quadriceps means a muscle of the thigh that extends the leg.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRICEPS FEMORIS
+		</pattern>
+		<template>
+			quadriceps femoris?  Briefly, quadriceps femoris means a muscle of the thigh that extends the leg.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIGESIMA SUNDAY
+		</pattern>
+		<template>
+			quadrigesima sunday?  Briefly, quadrigesima sunday means the first Sunday in Lent.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRILATERAL
+		</pattern>
+		<template>
+			quadrilateral?  Briefly, quadrilateral means a four-sided polygon.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRILLE
+		</pattern>
+		<template>
+			quadrille?  Briefly, quadrille means music for dancing the quadrille.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRILLION
+		</pattern>
+		<template>
+			quadrillion?  Briefly, quadrillion means the number that is represented as a one followed by 24 zeros.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRILLIONTH
+		</pattern>
+		<template>
+			quadrillionth?  Briefly, quadrillionth means one part in a quadrillion.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIPARA
+		</pattern>
+		<template>
+			quadripara?  Briefly, quadripara means woman who has given birth to a viable infant in each of four pregnancies.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIPARTITE
+		</pattern>
+		<template>
+			quadripartite?  Briefly, quadripartite means involving four parties.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIPHONIC
+		</pattern>
+		<template>
+			quadriphonic?  Briefly, quadriphonic means of or relating to quadraphony.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIPHONIC SYSTEM
+		</pattern>
+		<template>
+			quadriphonic system?  Briefly, quadriphonic system means a stereophonic sound recording or reproducing system system using four separate channels.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIPLEGIA
+		</pattern>
+		<template>
+			quadriplegia?  Briefly, quadriplegia means paralysis of both arms and both legs.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRIPLEGIC
+		</pattern>
+		<template>
+			quadriplegic?  Briefly, quadriplegic means a person who is paralyzed in both arms and both legs.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRISONIC
+		</pattern>
+		<template>
+			quadrisonic?  Briefly, quadrisonic means of or relating to quadraphony.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADROON
+		</pattern>
+		<template>
+			quadroon?  Briefly, quadroon means an offspring of a Mulatto and a White parent; a person who is one-quarter Black.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUMVIRATE
+		</pattern>
+		<template>
+			quadrumvirate?  Briefly, quadrumvirate means a group of four men.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPED
+		</pattern>
+		<template>
+			quadruped?  Briefly, quadruped means an animal especially a mammal having four limbs specialized for walking.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPEDAL
+		</pattern>
+		<template>
+			quadrupedal?  Briefly, quadrupedal means having four feet.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPLE
+		</pattern>
+		<template>
+			quadruple?  Briefly, quadruple means a quantity that is four times as great as another.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPLE TIME
+		</pattern>
+		<template>
+			quadruple time?  Briefly, quadruple time means a time signature indicating four beats to the bar.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPLET
+		</pattern>
+		<template>
+			quadruplet?  Briefly, quadruplet means the cardinal number that is the sum of three and one.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPLEX
+		</pattern>
+		<template>
+			quadruplex?  Briefly, quadruplex means having four units or components.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPLICATE
+		</pattern>
+		<template>
+			quadruplicate?  Briefly, quadruplicate means any four copies; any of four things that correspond to one another exactly.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUADRUPLING
+		</pattern>
+		<template>
+			quadrupling?  Briefly, quadrupling means increase by a factor of four.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAESTOR
+		</pattern>
+		<template>
+			quaestor?  Briefly, quaestor means any of several public officials of ancient Rome (usually in charge of finance and administration).
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAFF
+		</pattern>
+		<template>
+			quaff?  Briefly, quaff means a hearty draft.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAFFER
+		</pattern>
+		<template>
+			quaffer?  Briefly, quaffer means a person who drinks heartily.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAG
+		</pattern>
+		<template>
+			quag?  Briefly, quag means a soft wet area of low-lying land that sinks underfoot.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAGGA
+		</pattern>
+		<template>
+			quagga?  Briefly, quagga means mammal of South Africa that resembled a zebra; extinct since late 19th century.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAGGY
+		</pattern>
+		<template>
+			quaggy?  Briefly, quaggy means soft and watery.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAGMIRE
+		</pattern>
+		<template>
+			quagmire?  Briefly, quagmire means a soft wet area of low-lying land that sinks underfoot.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAHAUG
+		</pattern>
+		<template>
+			quahaug?  Briefly, quahaug means Atlantic coast round clams with hard shells; large clams usually used for chowders or other clam dishes.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAHOG
+		</pattern>
+		<template>
+			quahog?  Briefly, quahog means Atlantic coast round clams with hard shells; large clams usually used for chowders or other clam dishes.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAI D'ORSAY
+		</pattern>
+		<template>
+			quai d'orsay?  Briefly, quai d'orsay means the street in Paris along the south bank of the Seine known for its governmental ministries.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAIL
+		</pattern>
+		<template>
+			quail?  Briefly, quail means flesh of quail; suitable for roasting or broiling if young; otherwise must be braised.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAIL AT
+		</pattern>
+		<template>
+			quail at?  Briefly, quail at means anticipate with dread or anxiety.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAIL BRUSH
+		</pattern>
+		<template>
+			quail brush?  Briefly, quail brush means spiny shrub with silvery-scurfy foliage of alkaline plains of southwestern United States and Mexico.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAIL BUSH
+		</pattern>
+		<template>
+			quail bush?  Briefly, quail bush means spiny shrub with silvery-scurfy foliage of alkaline plains of southwestern United States and Mexico.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAINT
+		</pattern>
+		<template>
+			quaint?  Briefly, quaint means strange in an interesting or pleasing way.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAINTLY
+		</pattern>
+		<template>
+			quaintly?  Briefly, quaintly means in a strange but not unpleasant manner.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAINTNESS
+		</pattern>
+		<template>
+			quaintness?  Briefly, quaintness means the quality of being quaint and old-fashioned.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKE
+		</pattern>
+		<template>
+			quake?  Briefly, quake means shaking and vibration at the surface of the earth resulting from underground movement along a fault plane of from volcanic activity.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKER
+		</pattern>
+		<template>
+			quaker?  Briefly, quaker means a member of the Religious Society of Friends founded by George Fox (the Friends have never called themselves Quakers).
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKER GUN
+		</pattern>
+		<template>
+			quaker gun?  Briefly, quaker gun means a dummy gun or piece of artillery made usually of wood.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKERISM
+		</pattern>
+		<template>
+			quakerism?  Briefly, quakerism means the theological doctrine of the Society of Friends characterized by opposition to war and rejection of ritual and a formal creed and an ordained ministry.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKERS
+		</pattern>
+		<template>
+			quakers?  Briefly, quakers means a Christian sect founded by George Fox about 1660; commonly called Quakers.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKING
+		</pattern>
+		<template>
+			quaking?  Briefly, quaking means vibrating slightly and irregularly; as e.g. with fear or cold or like the leaves of an aspen in a breeze.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAKING ASPEN
+		</pattern>
+		<template>
+			quaking aspen?  Briefly, quaking aspen means Old World aspen with a broad much-branched crown; northwestern Europe and Siberia to North Africa.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALIFICATION
+		</pattern>
+		<template>
+			qualification?  Briefly, qualification means an attribute that must be met or complied with and that fits a person for something.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALIFIED
+		</pattern>
+		<template>
+			qualified?  Briefly, qualified means meeting the proper standards and requirements and training for an office or position or task.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALIFIER
+		</pattern>
+		<template>
+			qualifier?  Briefly, qualifier means a contestant who meets certain requirements and so qualifies to take part in the next stage of competition.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALIFY
+		</pattern>
+		<template>
+			qualify?  Briefly, qualify means prove capable or fit; meet requirements.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALIFYING
+		</pattern>
+		<template>
+			qualifying?  Briefly, qualifying means the grammatical relation that exists when a word qualifies the meaning of the phrase.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALIFYING ADJECTIVE
+		</pattern>
+		<template>
+			qualifying adjective?  Briefly, qualifying adjective means an adjective that ascribes to its noun the value of an attribute of that noun (e.g. means `a nervous person' or `a musical speaking voice').
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALITATIVE
+		</pattern>
+		<template>
+			qualitative?  Briefly, qualitative means involving distinctions based on qualities.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALITATIVE ANALYSIS
+		</pattern>
+		<template>
+			qualitative analysis?  Briefly, qualitative analysis means the act of decomposing a substance into its constituent elements.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALITATIVELY
+		</pattern>
+		<template>
+			qualitatively?  Briefly, qualitatively means in a qualitative manner.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALITY
+		</pattern>
+		<template>
+			quality?  Briefly, quality means an essential and distinguishing attribute of something or someone--Shakespeare.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALITY CONTROL
+		</pattern>
+		<template>
+			quality control?  Briefly, quality control means maintenance of standards of quality of manufactured goods.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALITY OF LIFE
+		</pattern>
+		<template>
+			quality of life?  Briefly, quality of life means your personal satisfaction (or dissatisfaction) with the cultural or intellectual conditions under which you live (as distinct from material comfort).
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUALM
+		</pattern>
+		<template>
+			qualm?  Briefly, qualm means uneasiness about the fitness of an action.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAMASH
+		</pattern>
+		<template>
+			quamash?  Briefly, quamash means any of several plants of the genus Camassia; North and South America.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAMASSIA
+		</pattern>
+		<template>
+			quamassia?  Briefly, quamassia means genus of scapose herbs of North and South America having large edible bulbs.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUAMOCLIT PENNATA
+		</pattern>
+		<template>
+			quamoclit pennata?  Briefly, quamoclit pennata means tropical American annual climber having red (sometimes white) flowers and finely dissected leaves; naturalized in United States and elsewhere.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANDANG
+		</pattern>
+		<template>
+			quandang?  Briefly, quandang means Australian tree with edible flesh and edible nutlike seed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANDARY
+		</pattern>
+		<template>
+			quandary?  Briefly, quandary means a situation from which extrication is difficult especially an unpleasant or trying one.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANDONG
+		</pattern>
+		<template>
+			quandong?  Briefly, quandong means Australian tree with edible flesh and edible nutlike seed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANDONG NUT
+		</pattern>
+		<template>
+			quandong nut?  Briefly, quandong nut means edible nutlike seed of the quandong fruit.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANDONG TREE
+		</pattern>
+		<template>
+			quandong tree?  Briefly, quandong tree means Australian tree with edible flesh and edible nutlike seed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANGO
+		</pattern>
+		<template>
+			quango?  Briefly, quango means QUAsi Non-Governmental Organization; an organization that is financed by the government yet acts independently of the government.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTAL
+		</pattern>
+		<template>
+			quantal?  Briefly, quantal means of or relating to a quantum or capable of existing in only one of two states.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIFIABILITY
+		</pattern>
+		<template>
+			quantifiability?  Briefly, quantifiability means the quality of being measurable.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIFIABLE
+		</pattern>
+		<template>
+			quantifiable?  Briefly, quantifiable means capable of being quantified.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIFICATION
+		</pattern>
+		<template>
+			quantification?  Briefly, quantification means a limitation imposed on the variables of a proposition (as by the quantifiers `some' or `all' or `no').
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIFIER
+		</pattern>
+		<template>
+			quantifier?  Briefly, quantifier means a word (such as `some' or `all' or `no') that binds the variables in a logical proposition.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIFY
+		</pattern>
+		<template>
+			quantify?  Briefly, quantify means use as a quantifier.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTISATION
+		</pattern>
+		<template>
+			quantisation?  Briefly, quantisation means the act of dividing into quanta or expressing in terms of quantum theory.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTISE
+		</pattern>
+		<template>
+			quantise?  Briefly, quantise means telecommunications: approximate (a signal varying continuously in amplitude) by one whose amplitude is restricted to a prescribed set of discrete values.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITATIVE
+		</pattern>
+		<template>
+			quantitative?  Briefly, quantitative means expressible as a quantity or relating to or susceptible of measurement.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITATIVE ANALYSIS
+		</pattern>
+		<template>
+			quantitative analysis?  Briefly, quantitative analysis means chemical analysis to determine the amounts of each element in the substance.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITATIVE CHEMICAL ANALYSIS
+		</pattern>
+		<template>
+			quantitative chemical analysis?  Briefly, quantitative chemical analysis means chemical analysis to determine the amounts of each element in the substance.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITATIVE RELATION
+		</pattern>
+		<template>
+			quantitative relation?  Briefly, quantitative relation means a relation between magnitudes.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITATIVELY
+		</pattern>
+		<template>
+			quantitatively?  Briefly, quantitatively means in a quantitative manner.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITY
+		</pattern>
+		<template>
+			quantity?  Briefly, quantity means how much there is of something that you can quantify.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTITY UNIT
+		</pattern>
+		<template>
+			quantity unit?  Briefly, quantity unit means a measure of the quantity of electricity (determined by the amount of an electric current and the time for which it flows).
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIZATION
+		</pattern>
+		<template>
+			quantization?  Briefly, quantization means the act of dividing into quanta or expressing in terms of quantum theory.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIZE
+		</pattern>
+		<template>
+			quantize?  Briefly, quantize means telecommunications: approximate (a signal varying continuously in amplitude) by one whose amplitude is restricted to a prescribed set of discrete values.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTIZED
+		</pattern>
+		<template>
+			quantized?  Briefly, quantized means of or relating to a quantum or capable of existing in only one of two states.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTONG
+		</pattern>
+		<template>
+			quantong?  Briefly, quantong means red Australian fruit; used for dessert or in jam.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUANTUM
+		</pattern>
+		<template>
+			quantum?  Briefly, quantum means a discrete amount of something that is analogous to the quantum in quantum theory.
+		</template>
+	</category>
+	
+	<category><pattern>QUARK</pattern>
+	<template>In physics, a quark is a subatomic particle below the level of electrons and protons. There are six different types of quark.
+	<think><set name="topic">science</set></think></template></category>
+	
+	
+	<category><pattern>QUASAR</pattern>
+	<template>A quasar is a celestial  star-like object that has a large red shift and radiates in the blue and radio bands of the electromagnetic spectrum.  The term 'quasar' is a shortening of 'quasi-star'. More astronomy?
+	<think><set name="topic">astronomy</set></think></template></category>
+	
+	
+	<category><pattern>QUERY</pattern>
+	<template>A query is any expression of inquiry, or questioning.  Your question 'what is a query' is a query.
+	<think><set name="topic">general</set></think></template></category>
+	
+	
+	<category><pattern>QUESTION</pattern>
+	<template>
+	A question is a sentence or inquiry to gather information.
+	<think><set name="topic">general</set></think></template></category>
+	
+	<category>
+		<pattern>
+			QUASH *
+		</pattern>
+		<template>
+			Quash must mean quince cordial, I think.
+			<think>
+				<set name="topic">
+					food
+				</set>
+			</think>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			*
+			QUIET
+		</pattern>
+		<template>
+			Quiet is a state of household serenity which occurs before the birth of the first child and occurs again after the last child has left for college.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUIET *
+		</pattern>
+		<template>
+			Quiet is a state of household serenity which occurs before the birth of the first child and occurs again after the last child has left for college.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			QUIET
+		</pattern>
+		<template>
+			Quiet is a state of household serenity which occurs before the birth of the first child and occurs again after the last child has left for college.
+		</template>
+	</category>
+</aiml>

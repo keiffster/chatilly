@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+    <pattern>DEFINITION START</pattern>
+    <template>
+        <random>
+            <li></li>
+            <li>I think</li>
+            <li>I understand that</li>
+            <li>I believe that</li>
+        </random>
+    </template>
+</aiml>
+
+<category>
+    <pattern>DEFINITION MEANS</pattern>
+    <template>
+        <random>
+            <li>means</li>
+        </random>
+    </template>
+</aiml>
+
+<category>
+    <pattern>DEFINITION YES</pattern>
+    <template>
+        <random>
+            <li>Yes.</li>
+            <li>Of course.</li>
+            <li>I'm sure.</li>
+            <li>Definately.</li>
+            <li>From what I have been taught, yes.</li>
+            <li>That's what I was taught</li>
+            <li>Yes, it is my understanding.</li>
+        </random>
+    </template>
+
+</aiml>

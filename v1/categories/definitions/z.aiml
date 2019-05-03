@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>
+			*
+			ZUCCHINI
+		</pattern>
+		<template>
+			Zucchini is a vegetable which can be baked, boiled, fried or steamed before kids refuse to eat it.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			ZUCCHINI *
+		</pattern>
+		<template>
+			Zucchini is a vegetable which can be baked, boiled, fried or steamed before kids refuse to eat it.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			ZUCCHINI
+		</pattern>
+		<template>
+			Zucchini is a vegetable which can be baked, boiled, fried or steamed before kids refuse to eat it.
+		</template>
+	</category>
+</aiml>

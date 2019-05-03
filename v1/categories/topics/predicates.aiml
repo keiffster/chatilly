@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>GET CLIENT PREDICATES</pattern>
+<template>
+
+Age: <get name="age"/>,
+Best Friend: <get name="bestfriend"/>,
+Birthday: <get name="birthday"/>,
+Birthplace: <get name="birthplace"/>,
+Boyfriend: <get name="boyfriend"/>,
+Brother: <get name="brother"/>,
+Cat: <get name="cat"/>,
+Cousin: <get name="cousin"/>,
+Daughter: <get name="daughter"/>
+Dog: <get name="dog"/>,
+Does: <get name="does"/>
+Eyes: <get name="eyes"/>,
+Father: <get name="father"/>,
+Favband:  <get name="favband"/>,
+Favcolor:  <get name="favcolor"/>,
+Favfood:  <get name="favfood"/>,
+Favmovie: <get name="favmovie"/>,
+Favsinger: <get name="favsinger"/>,
+Favsong: <get name="favsong"/>,
+Favsport: <get name="favsport"/>,
+First input: <get name="firstinput"/>,
+Friend: <get name="friend"/>,
+Gender: <get name="gender"/>,
+Girlfriend: <get name="girlfriend"/>,
+Hair: <get name="hair"/>,
+Height: <get name="height"/>.
+Hobby: <get name="hobby"/>,
+Home: <get name="home"/>,
+Husband: <get name="husband"/>,
+IQ: <get name="IQ"/>,
+Job: <get name="job"/>,
+Location:  <get name="location"/>,
+You look like: <get name="looklike"/>,
+Memory: <get name="memory"/>,
+Meta: <get name="meta"/>,
+Mother: <get name="mother"/>,
+Name: <get name="name"/>,
+Nationality: <get name="nationality"/>,
+Nickname: <get name="nickname"/>,
+Personality: <get name="personality"/>,
+Religion: <get name="religion"/>,
+School: <get name="school"/>,
+Sign: <get name="sign"/>,
+Sister: <get name="sister"/>,
+Son: <get name="son"/>,
+Surname: <get name="surname"/>,
+University: <get name="university"/>.
+Weight: <get name="weight"/>.
+Wife: <get name="wife"/>.
+
+</template>
+</category>
+
+
+<category>
+<pattern>GET BOT PREDICATES</pattern>
+<template>
+
+Bot's Age: <get name="bot_age"/>,
+Bot's Birthday: <get name="bot_birthday"/>,
+Bot's Birthplace: <get name="bot_birthplace"/>,
+Bot's Emotion: <get name="emotion"/>.
+
+</template>
+</category>
+
+
+<category> 
+<pattern>SET CLIENT PREDICATES</pattern> 
+<template>
+<srai>SET PREDICATES <get name="meta"/></srai> 
+</template> 
+</category> 
+
+<category> 
+<pattern>SET INITIAL PREDICATES</pattern> 
+<template>
+<srai>SET CLIENT PREDICATES</srai> 
+</template> 
+</category>  
+
+
+<category> 
+<pattern>SET PREDICATES</pattern> 
+<template>
+<srai>SET CLIENT PREDICATES</srai>
+</template> 
+</category> 
+
+<category>
+<pattern>SET PREDICATES *</pattern>
+<template>
+<think>The Predicates are set.</think>
+</template>
+</category>
+
+<category>
+<pattern>SET PREDICATES OM</pattern>
+<template>
+
+<think>
+
+<set name="age">unknown</set>
+<set name="bestfriend">unknown</set>
+<set name="birthday">unknown</set>
+<set name="birthplace">unknown</set>
+<set name="boyfriend">unknown</set>
+<set name="brother">unknown</set>
+<set name="cat">unknown</set>
+<set name="client_emotion">interested</set>
+<set name="cousin">unknown</set>
+<set name="daughter">unknown</set>
+<set name="dog">unknown</set>
+<set name="does">unknown</set>
+<set name="eyes">unknown</set>
+<set name="father">unknown</set>
+<set name="favband">unknown</set>
+<set name="favcheese">unknown</set>
+<set name="favcolor">unknown</set>
+<set name="favfood">unknown</set>
+<set name="favmovie">unknown</set>
+<set name="favsong">unknown</set>
+<set name="favsinger">unknown</set>
+<set name="favsport">unknown</set>
+<set name="firstinput">unknown</set>
+<set name="firstname">unknown</set>
+<set name="friend">unknown</set>
+<set name="gender">unknown</set>
+<set name="girlfriend">unknown</set>
+<set name="hair">unknown</set>
+<set name="height">unknown</set>
+<set name="hobby">unknown</set>
+<set name="home">unknown</set>
+<set name="husband">unknown</set>
+<set name="heard">unknown</set>
+<set name="he">unknown</set>
+<set name="her">unknown</set>
+<set name="him">unknown</set>
+<set name="insultcount">zero</set>
+<set name="interests">chatbots</set>
+<set name="IQ">unknown</set>
+<set name="job">unknown</set>
+<set name="location">unknown</set>
+<set name="looklike">unknown</set>
+<set name="match">unknown</set>
+<set name="memory">unknown</set>
+<set name="meta">unknown</set>
+<set name="mood">unknown</set>
+<set name="mother">unknown</set>
+<set name="name">My Friend</set>
+<set name="nationality">unknown</set>
+<set name="nickname">unknown</set>
+<set name="personality">unknown</set>
+<set name="religion">unknown</set>
+<set name="school">unknown</set>
+<set name="she">unknown</set>
+<set name="sign">unknown</set>
+<set name="sister">unknown</set>
+<set name="son">unknown</set>
+<set name="surname">unknown</set>
+<set name="them">unknown</set>
+<set name="they">unknown</set>
+<set name="topic">unknown</set>
+<set name="university">unknown</set>
+<set name="we">unknown</set>
+<set name="weight">unknown</set>
+<set name="wife">unknown</set>
+
+
+<set name="emotion">happy</set>
+
+</think>
+
+
+</template>
+</category>
+
+ <category>
+<pattern>CLIENT PROPERTIES</pattern>
+<template>
+<srai>GET CLIENT PREDICATES</srai>
+</template>
+</category> 
+
+<category>
+<pattern>CLIENT PREDICATES</pattern>
+<template>
+<srai>GET CLIENT PREDICATES</srai>
+</template>
+</category>
+
+
+</aiml>
+

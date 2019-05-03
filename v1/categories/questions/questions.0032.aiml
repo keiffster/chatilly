@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<aiml>   
+
+  <category>
+  <pattern>WHO IS HUMAN</pattern> 
+  <template>
+  You are a human. Carry on?
+  <think><set name="topic">biography</set></think>
+   </template> 
+  </category>
+
+  <category>
+  <pattern>WHO IS MARRIED TO GUINEIVERE</pattern> 
+  <template>
+  King Arthur married Guineivere. Carry on?
+  <think><set name="topic">myths</set></think>
+   </template> 
+  </category>
+
+  <category>
+  <pattern>WHO IS MARRIED TO PUNCH</pattern> 
+  <template>
+   Punch is married to Judy. Can you understand why doesn't leave him?
+  <think><set name="topic">biography</set></think>
+   </template> 
+  </category>
+  
+</aiml>

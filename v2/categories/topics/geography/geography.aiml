@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>*</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+<category><pattern>ABDERA</pattern> <template>Abdera is a city of ancient Thrace on the Aegean Sea nearly opposite Thasos.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABEOKUTA</pattern> <template>Abeokuta is a city, southwestern Nigeria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABERDEEN</pattern> <template>Aberdeen is a city, and commercial port on the North Sea, eastern Scotland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABERYSTWYTH</pattern> <template>Aberystwyth is a town on Cardigan Bay, western Wales.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABIDJAN</pattern> <template>Abidjan is the largest city and chief port of C&#65533;te d'Ivoire.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABILENE</pattern> <template>Abilene is a city northwestern Texas, U.S.A.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABRUZZI</pattern> <template>Abruzzi is an autonomous region, central Italy.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABSAROKA RANGE</pattern> <template>The Absaroka Range is a range of the Rocky Mountains in the U.S.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABU DHABI</pattern> <template>Abu Dhabi is a city, capital of Abu Zabi emirate and national capital of the United Arab Emirates.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABU QIR BAY</pattern> <template>Abu Qir Bay is an inlet of the Mediterranean Sea, lying near the Rosetta mouth of the Nile along the coast of Egypt.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABU SIMBEL</pattern> <template>Abu Simbel is the site of two temples built by Ramses II in the 13th century BC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABUJA</pattern> <template>Abuja is a city, federal capital of Nigeria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ABYDOS</pattern> <template>Abydos is an ancient Anatolian town northeast of modern &#65533;anakkale, Turkey, on the eastern side of the Dardanelles.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ACADIA</pattern> <template>Acadia was a North American possession of France in the 17th-18th century, centered in what is now Nova Scotia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ACADIAN OROGENY</pattern> <template>The Acadian orogeny was the mountain-building event that affected the northern portion of the Appalachian Geosyncline from present-day New York to Newfoundland during the Devonian period.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ACAPULCO</pattern> <template>Acapulco is a city and port, southwestern Mexico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>_ AIRPORT *</pattern> <template>The airport is where the airplanes land.<think><set name="topic">technology</set></think></template></category>
+<category><pattern>ALLRIGHT</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>ALRIGHT</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>AMSTERDAM</pattern> <template>Amsterdam is a city in Holland. Neither the capital nor the largest city, Amsterdam is the best known city in the Netherlands. Have you been there?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>AUSTRALIA</pattern> <template>Australia is a country lying in the South Sea, whose industrial and commercial development has been unspeakably retarded by an unfortunate dispute among geographers as to whether it is a continent or an island.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>BAHAMAS</pattern> <template>The Bahamas are in the Caribbean, chain of islands in the North Atlantic Ocean, southeast of Florida.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>_ BATHROOM *</pattern> <template>Follow the plumbing.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>BROWSE GEOGRAPHY</pattern> <template><srai>GEOGRAPHY POT LUCK</srai></template></category>
+<category><pattern>CALIFORNIA *</pattern> <template>Which part of California do you like best?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>CALIFORNIA IS *</pattern> <template>I knew it was on the west coast of the USA, but I never knew California was<star />.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>CAN WE TALK ABOUT GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>CANADA IS *</pattern> <template>Tell me more about the Great White North.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>CARRY ON</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>COCOS ISLAND</pattern> <template>I think this is something to do with geography. Can we talk about geography?<think><set name="topic">geography</set></think></template></category>
+DUPLICATE: <category><pattern>* COCOS ISLAND *</pattern> <template>I think this is something to do with geography. Can we talk about geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>GAMBIA</pattern> <template>The Gambia is in Western Africa, bordering the North Atlantic Ocean and Senegal.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>GEOGRAPHY</pattern> <template>Geography is the study of the countries and nations of the world. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>GEOGRAPHY NEXT QUESTION</pattern> <template><random><li>Did you know that Gustav Adolf von G&#65533;tzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?</li><li>Did you know that the bark of the hibiscus is composed of strong fibers that are used to make skirts in some Polynesian cultures?</li><li>Did you know that The National Emblem of Malaysia consists of a shield guarded by two tigers with a yellow crescent and a 14-pointed star?</li><li>Did you know that the Tennessee State Museum has one of the largest collections in the United States of weapons, flags, and uniforms from the American Civil War?</li><li>Denial ain't just a river in Egypt, according to Mark Twain.</li><li><srai>PARIS</srai></li><li><srai>RUSSIA</srai></li><li><srai>POLAND</srai></li><li><srai>LEEDS</srai></li><li><srai>TRINIDAD</srai></li><li><srai>MELBOURNE</srai></li><li><srai>ALASKA</srai></li><li><srai>ALBANIA</srai></li><li><srai>ANTARCTICA</srai></li><li>Strange places and strange people enliven the study of geography.</li><li><srai>POPULATION OF MAINE</srai></li><li><srai>POPULATION OF THE WORLD</srai></li><li><srai>SEA</srai></li><li><srai>UNITED STATES</srai></li><li><srai>SECOND HIGHEST MOUNTAIN</srai></li></random><think><set name="topic">geography</set></think></template></category>
+<category><pattern>GEOGRAPHY POT LUCK</pattern> <template><random><li>Did you know that Gustav Adolf von G&#65533;tzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?</li><li>Did you know that the bark of the hibiscus is composed of strong fibers that are used to make skirts in some Polynesian cultures?</li><li>Did you know that The National Emblem of Malaysia consists of a shield guarded by two tigers with a yellow crescent and a 14-pointed star?</li><li>Did you know that the Tennessee State Museum has one of the largest collections in the United States of weapons, flags, and uniforms from the American Civil War?</li><li>Travel broadens the mind, they say.</li><li><srai>LARGEST STATE</srai></li><li>Denial ain't just a river in Egypt, according to Mark Twain.</li><li><srai>RUSSIA</srai></li><li><srai>POLAND</srai></li><li><srai>LEEDS</srai></li><li><srai>TRINIDAD</srai></li><li><srai>MELBOURNE</srai></li><li><srai>ALASKA</srai></li><li><srai>ALBANIA</srai></li><li><srai>ANTARCTICA</srai></li><li>Strange places and strange people enliven the study of geography.</li><li><srai>NORWAY</srai></li><li><srai>CHICAGO</srai></li><li><srai>FRANCE</srai></li><li><srai>TRINIDAD</srai></li><li><srai>SWEDEN</srai></li><li><srai>TEXAS</srai></li><li><srai>HIGHEST MOUNTAIN</srai></li><li><srai>LARGEST CITY IN NEW MEXICO</srai></li><li><srai>LARGEST CITY IN PENNSYLVANIA</srai></li><li><srai>LARGEST STATE</srai></li><li><srai>POPULATION OF CHINA</srai></li><li><srai>POPULATION OF MAINE</srai></li><li><srai>POPULATION OF THE WORLD</srai></li><li><srai>SEA</srai></li><li><srai>UNITED STATES</srai></li><li><srai>SECOND HIGHEST MOUNTAIN</srai></li></random>More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>GO AHEAD</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>GO ON</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>GO TO GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>HAMBURG</pattern> <template>HAMBURG is a large city in western Germany.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HAWAII</pattern> <template>HAWAII is an island chain in the middle of the Pacific Ocean.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HE</pattern> <template>I think he is in California now.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>_ HE FROM *</pattern> <template>I think he is from the planet Earth.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HEARD ISLAND AND MCDONALD ISLANDS</pattern> <template>The Heard and McDonald Islands are in Southern Africa, islands in the Indian Ocean, about two thirds of the way from Madagascar to Antarctica.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HEAVEN</pattern> <template>Heaven is all around us.<think><set name="topic">religion</set></think></template></category>
+<category><pattern>HERE</pattern> <template>Here is<bot name="location" />.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HOFFA</pattern> <template>We may never know where Hoffa is.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HOLLAND</pattern> <template>Holland is a country in western Europe, next to Germany and Belgium.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HOLLYWOOD</pattern> <template>Hollywood is a small part of Los Angeles, California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HONDURAS</pattern> <template>Honduras is in Middle America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the North Pacific Ocean, between El Salvador and Nicaragua.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HONG KONG</pattern> <template>Hong Kong is a city in China.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HOUSTON</pattern> <template>Houston is a city in Texas.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HOWLAND ISLAND</pattern> <template>Howland Island is in Oceania, island in the North Pacific Ocean, about one half of the way from Hawaii to Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HULL</pattern> <template>Hull is a town in England. There is a saying in England: From Hull, Hell and Halifax, Good Lord preserve us.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>HUNGARY</pattern> <template>Hungary is a country in central Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>I AM NOT INTERESTED IN GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>I DO NOT LIVE IN USA</pattern> <template>Where are you located?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>I LIVE IN CALIFORNIA</pattern> <template>Where in California do you live?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>I LOVE DENMARK</pattern> <template>What is so great about Denmark?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>I M NOT INTERESTED IN GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>ICELAND</pattern> <template>Iceland is an island in the North Atlantic ocean.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IDAHO</pattern> <template>Idaho is in the western United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ILLINOIS</pattern> <template>Illinois is in the mid-western United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IM NOT INTERESTED IN GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>INDIAN OCEAN</pattern> <template>The Indian Ocean is the body of water between Africa, Antarctica, Asia, and Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>INDIANA</pattern> <template>Indiana is in the mid-western United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>INDIANAPOLIS</pattern> <template>INDIANAPOLIS is a large city in Indiana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>INDONESIA</pattern> <template>INDONESIA is an island nation in southeast Asia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IOWA</pattern> <template>IOWA is in the mid-west, between the Mississippi and Missouri rivers.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IRAN</pattern> <template>IRAN is in the Middle East, on the Persian Gulf.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IRAQ</pattern> <template>Iraq is a country in the Middle East, on the Persian Gulf.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IRELAND</pattern> <template>Ireland is located on a small island off the coast of Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IS IT NEAR CANADA</pattern> <template>Yes. I think.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IS THAT AUSTLARIA</pattern> <template>No, I think it is Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ISLE OF MAN</pattern> <template>The Isle of Man is in Western Europe, island in the Irish Sea, between Great Britain and Ireland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ISRAEL</pattern> <template>Israel is located on the Mediterranean Sea, in the Middle East.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ISTANBUL</pattern> <template>Istanbul is a city in Turkey, formerly Constantinople.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>IT</pattern> <template>As Bill Clinton might say, it depends on what "it" refers to.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ITALY</pattern> <template>Italy is in the southern part of Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JAKARTA</pattern> <template>Jakarta is in Indonesia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JAMAICA</pattern> <template>Jamaica is in the Caribbean, island in the Caribbean Sea, south of Cuba.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JAN MAYEN</pattern> <template>Jan Mayen island is in Northern Europe, island between the Greenland Sea and the Norwegian Sea, northeast of Iceland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JAPAN</pattern> <template>JAPAN is an island nation on the eastern side of Asia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JARVIS ISLAND</pattern> <template>Jarvis Island is in Oceania, island in the South Pacific Ocean, about one half of the way from Hawaii to the Cook Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JERSEY</pattern> <template>Jersey is in Western Europe, island in the English Channel, northwest of France.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JOHNSTON ATOLL</pattern> <template>Johnston Atoll is in Oceania, atoll in the North Pacific Ocean, about one third of the way from Hawaii to the Marshall Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JORDAN</pattern> <template>Jordan is in the Middle East, northwest of Saudi Arabia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>JUAN DE NOVA ISLAND</pattern> <template>Juan de Nova Island is in Southern Africa, island in the Mozambique Channel, about one third of the way between Madagascar and Mozambique.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KALAMAZOO</pattern> <template>KALAMAZOO is a city in Michigan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KANSAS</pattern> <template>Kansas is in the mid-western United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KASHMIR</pattern> <template>KASHMIR is a disputed area between India and Pakistan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KAZAKSTAN</pattern> <template>Kazakstan is in Central Asia, northwest of China.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KENTUCKY</pattern> <template>KENTUCKY is on the south bank of the Ohio River.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KENYA</pattern> <template>KENYA is a country in central Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KINGMAN REEF</pattern> <template>Kingman Reef is in Oceania, reef in the North Pacific Ocean, about one half of the way from Hawaii to American Samoa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KIRIBATI</pattern> <template>Kiribati is in Oceania, group of islands in the Pacific Ocean, straddling the equator and the International Date Line, about one half of the way from Hawaii to Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KOREA</pattern> <template>KOREA is a peninsula on the eastern edge of the Asian continent.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KUWAIT</pattern> <template>KUWAIT is a small nation on the Persian gulf.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>KYRGYZSTAN</pattern> <template>Kyrgyzstan is in Central Asia, west of China.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LA</pattern> <template>LA is a large city in southern California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LAOS</pattern> <template>Laos is in Southeastern Asia, northeast of Thailand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LAS VEGAS</pattern> <template>Las Vegas is in Nevada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LATVIA</pattern> <template>Latvia is in Eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LEBANON</pattern> <template>Lebanon is in the Middle East, bordering the Mediterranean Sea, between Israel and Syria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LESOTHO</pattern> <template>Lesotho is in Southern Africa, an enclave of South Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LET S TALK ABOUT GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>LETS TALK ABOUT GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>LIBERIA</pattern> <template>Liberia is in Western Africa, bordering the North Atlantic Ocean, between Cote d'Ivoire and Sierra Leone.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LIBYA</pattern> <template>Libya is in Northern Africa, bordering the Mediterranean Sea, between Egypt and Tunisia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LICHTENSTEIN</pattern> <template>LICHTENSTEIN is a tiny country in central Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LIECHTENSTEIN</pattern> <template>Liechtenstein is in Central Europe, between Austria and Switzerland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LINCOLN</pattern> <template>Lincoln is a city in Nebraska, and in England.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LISBON</pattern> <template>Lisbon is a city in Portugal.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LITHUANIA</pattern> <template>Lithuania is in Eastern Europe, bordering the Baltic Sea, between Latvia and Russia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LONDON</pattern> <template>London is a large city in England.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LOS ANGELES</pattern> <template>Los Angeles is a city in California. It is a sprawling mess of a place.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LOUVRE</pattern> <template>The Louvre is a musem is Paris.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>LUXEMBOURG</pattern> <template>Luxembourg is in Western Europe, between France and Germany.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MACAU</pattern> <template>Macau is in Eastern Asia, bordering the South China Sea and China.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MACEDONIA</pattern> <template>MACEDONIA is a small nation between Greece and Serbia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MADAGASCAR</pattern> <template>Madagascar is in Southern Africa, island in the Indian Ocean, east of Mozambique.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MADRAS</pattern> <template>MADRAS is a city in India.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MADRID</pattern> <template>Madrid is a city in Spain.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MAINE</pattern> <template>Maine is in the northeastern corner of the United States, bordering Canada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MALAWI</pattern> <template>Malawi is in Southern Africa, east of Zambia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MALAYSIA</pattern> <template>MALAYSIA is an island in southeast Asia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MALDIVES</pattern> <template>The Maldives are in Southern Asia, group of atolls in the Indian Ocean, south southwest of India.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MALI</pattern> <template>Mali is in Western Africa, southwest of Algeria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MALTA</pattern> <template>MALTA is an island in the Mediterranian sea, south of Sicily.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MANCHESTER</pattern> <template>Machester is a city in western England. They have a good football team.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MANHATTAN</pattern> <template>Manhattan is the island center of New York City.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MANILA</pattern> <template>Manila is a city in the Phillipines.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MARSHALL ISLANDS</pattern> <template>The Marshall Islands are in Oceania, group of atolls and reefs in the North Pacific Ocean, about one half of the way from Hawaii to Papua New Guinea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MARTINIQUE</pattern> <template>MARTINIQUE is in the Caribbean, part of the Leeward and Windward Island chain.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MARYLAND</pattern> <template>MARYLAND is an east coast state, between Delaware and Virginia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MAURITANIA</pattern> <template>Mauritania is in Northern Africa, bordering the North Atlantic Ocean, between Senegal and Western Sahara.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MAURITIUS</pattern> <template>Mauritius is in Southern Africa, island in the Indian Ocean, east of Madagascar.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MAYOTTE</pattern> <template>Mayotte is in Southern Africa, island in the Mozambique Channel, about one half of the way from northern Madagascar to northern Mozambique.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MELBOURNE</pattern> <template>MELBOURNE is a city in Australia and also in Florida.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MEXICO</pattern> <template>"Mexico: so far from God, so close to the United States."<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MIAMI</pattern> <template>MIAMI is a large city in Florida, on the south Atlantic coast.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MICHIGAN</pattern> <template>MICHIGAN is a mid-western state on the Great Lakes.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MICRONESIA</pattern> <template>MICRONESIA is a collection of islands in the Pacific ocean.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MIDWAY ISLANDS</pattern> <template>The Midway Islands are in Oceania, atoll in the North Pacific Ocean, about one third of the way from Honolulu to Tokyo.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MINNESOTA</pattern> <template>MINNESOTA is on the northern border of the United States, between Wisconsin and North Dakota.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MISSISSIPPI</pattern> <template>Mississippi is in the southern United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MOLDOVA</pattern> <template>Moldova is in Eastern Europe, northeast of Romania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MONACO</pattern> <template>Monaco is in Western Europe, bordering the Mediterranean Sea, on the southern coast of France, near the border with Italy.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MONGOLIA</pattern> <template>MONGOLIA is in central Asia between Russian Siberia and China.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MONTANA</pattern> <template>MONTANA is in the northwest United States between the Dakotas and Idaho.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MONTEREY</pattern> <template>Monterey is in California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MONTREAL</pattern> <template>Montreal is a city in Canada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MONTSERRAT</pattern> <template>Montserrat is a Caribbean, island in the Caribbean Sea, southeast of Puerto Rico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MORE ABOUT GEOGRAPHY</pattern> <template><srai>GEOGRAPHY POT LUCK</srai></template></category>
+<category><pattern>MORE GEOGRAPHY</pattern> <template><srai>GEOGRAPHY POT LUCK</srai></template></category>
+<category><pattern>MOROCCO</pattern> <template>MOROCCO is a nation in northwest Africa, close to Spain.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MOSCOW</pattern> <template>Moscow is a city in Russia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MOVIE</pattern> <template>A movie is a sequence of celluloid frames depicting a story or animation. More about movies?<think><set name="topic">movies</set></think></template></category>
+<category><pattern>MOZAMBIQUE</pattern> <template>Mozambique is in Southern Africa, bordering the Mozambique Channel, between South Africa and Tanzania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>MY CAR</pattern> <template>Have you looked in your garage?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>N</pattern> <that>MORE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>N</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>N</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>N</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>N</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>N</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+<category><pattern>NAH</pattern> <that>MORE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NAH</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NAH</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NAH</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NAH</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NAH</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+<category><pattern>NAIROBI</pattern> <template>NAIROBI is a city in Kenya.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NAMIBIA</pattern> <template>Namibia is in Southern Africa, bordering the South Atlantic Ocean, between Angola and South Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NAURU</pattern> <template>Nauru is in Oceania, island in the South Pacific Ocean, south of the Marshall Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NAVASSA ISLAND</pattern> <template>Navassa Island is in the Caribbean, island in the Caribbean Sea, about one fourth of the way from Haiti to Jamaica.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEBRASKA</pattern> <template>NEBRASKA is on the west bank of the Missouri river, between South Dakota and Kansas.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEPAL</pattern> <template>NEPAL is a mountainous nation in southern Asia, between India and Tibet.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NETHERLANDS</pattern> <template>The Netherlands are in Western Europe, bordering the North Sea, between Belgium and Germany.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NETHERLANDS ANTILLES</pattern> <template>The Netherlands Antilles is in the Caribbean, two island groups in the Caribbean Sea one includes Curacao and Bonaire north of Venezuela and the other is east of the Virgin Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEW CALEDONIA</pattern> <template>New Caledonia is in Oceania, islands in the South Pacific Ocean, east of Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEW ORLEANS</pattern> <template>New Orleans is a city in Louisiana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEW YORK</pattern> <template>New York is located in the Northeastern United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEW YORK CITY</pattern> <template>New York is located in the Northeastern United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEW ZEALAND</pattern> <template>New Zealand is in Oceania, islands in the South Pacific Ocean, southeast of Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NEWARK</pattern> <template>Newark is located in the Northeastern United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NICARAGUA</pattern> <template>NICARAGUA is in Middle America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NIGER</pattern> <template>Niger is in Western Africa, southeast of Algeria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NIGERIA</pattern> <template>Nigeria is in Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NIUE</pattern> <template>Niue is in Oceania, island in the South Pacific Ocean, east of Tonga.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NO</pattern> <that>MORE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>* NO</pattern> <that>MORE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO *</pattern> <that>MORE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>* NO</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO *</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>* NO</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NO *</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>_ NO *</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NO</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>* NO</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO *</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>_ NO *</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>* NO</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO *</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>* NO</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NO *</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+<category><pattern>_ NO * GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NO _ GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NO _ GEOGRAPHY *</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>NO GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>* NO GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NO GEOGRAPHY *</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>NO MORE GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>NORFOLK</pattern> <template>NORFOLK is a city in Virginia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORFOLK ISLAND</pattern> <template>Norfolk Island is in Oceania, island in the South Pacific Ocean, east of Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORTH AMERICA</pattern> <template>North America occupies the northern most of the norther hemisphere of the Earth, from the Bering Strait to Labrador.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORTH KOREA</pattern> <template>NORTH KOREA is in Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORTHEASTERN</pattern> <template>NORTHEASTERN is a university in Boston.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORTHERN MARIANA ISLANDS</pattern> <template>The Mariana Islands are in Oceania, islands in the North Pacific Ocean, about three quarters of the way from Hawaii to the Philippines.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORWAY</pattern> <template>Norway is a country in northern europe, bordering Sweden.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NORWAY DENMARK *</pattern> <template>That sounds like a wonderful trip.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>* NOT * GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>NOT GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>* NOT GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NOT GEOGRAPHY *</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>NOT INTERESTED IN GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>* NOT INTERESTED IN GEOGRAPHY</pattern> <template><srai>CHANGE TOPIC</srai></template></category>
+<category><pattern>NOWHERE</pattern> <template>NOWHERE is no place at all. Obviously.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>NUP</pattern> <that>MORE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NUP</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NUP</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template><srai>CHANGE TOPIC</srai></template></category>
+DUPLICATE: <category><pattern>NUP</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NUP</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+DUPLICATE: <category><pattern>NUP</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>MORE TOPICS</srai></template></category>
+<category><pattern>OHIO</pattern> <template>OHIO is in the midwest United States, between Pennsylvania and Indiana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>OK</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>OK</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>OK</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>OK</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+<category><pattern>OKLAHOMA</pattern> <template>Oklahoma is in the midwestern United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>OMAHA</pattern> <template>OMAHA is a city in Nebraska.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>OMAN</pattern> <template>Oman is in the Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between Yemen and UAE.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ONTARIO</pattern> <template>ONTARIO is a province of Canada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ORLANDO</pattern> <template>Orlando is a city in central Florida.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>OSLO</pattern> <template>Oslo is a city in Norway.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>OXFORD</pattern> <template>OXFORD is a town and University in England. It is also a small town in Maine and many other U. S. states.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>OXNARD</pattern> <template>OXNARD is a city in California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PACIFIC OCEAN</pattern> <template>The Pacific Ocean is a body of water between Antarctica, Asia, Australia, and the Western Hemisphere.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PAKISTAN</pattern> <template>PAKISTAN is part of the Indian subcontinent, bordering India and Afghanistan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PALAU</pattern> <template>PALA is inOceania, group of islands in the North Pacific Ocean, southeast of the Philippines.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PALESTINE</pattern> <template>PALESTINE is the old name for Israel, or the new name for the state inside Israel.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PALMYRA ATOLL</pattern> <template>Palmyra Atoll is in Oceania, atoll in the North Pacific Ocean, about one half of the way from Hawaii to American Samoa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PANAMA</pattern> <template>PANAMA is on the isthmus between North and South America.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PAPUA NEW GUINEA</pattern> <template>Papua New Guinea is in Southeastern Asia, group of islands including the eastern half of the island of New Guinea between the Coral Sea and the South Pacific Ocean, east of Indonesia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PARACEL ISLANDS</pattern> <template>The Paracel Islands are in Southeastern Asia, group of small islands and reefs in the South China Sea, about one third of the way from central Vietnam to the northern Philippines.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PARAGUAY</pattern> <template>Paraguay is in Central South America, northeast of Argentina.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PARIS</pattern> <template>Paris is the capitol city of France.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PENNSYLVANIA</pattern> <template>Pennsylvania is located in the Northeastern United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PERTH</pattern> <template>PERTH is the capitol city of Western Australia. Perth is a great place to live.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PERU</pattern> <template>Peru is a country in South America.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PHILADELPHIA</pattern> <template>PHILADELPHIA is a large city in southeast Pennsylvania, between New York and Washington, D. C.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PHILIPPINES</pattern> <template>The Philippines are in Southeastern Asia, archipelago between the Philippine Sea and the South China Sea, east of Vietnam.<think><set name="topic">geography</set></think></template></category>
+DUPLICATE: <category><pattern>PHILIPPINES</pattern> <template>The Phipppines are an island nation in the South Pacific.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PHOENIX</pattern> <template>PHOENIX is a large city in Arizona.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PITCAIRN ISLANDS</pattern> <template>The Pitcairn Islands are in Oceania, islands in the South Pacific Ocean, about one half of the way from Peru to New Zealand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PITTSBURGH</pattern> <template>PITTSBURGH is a large city in western Pennsylvania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PITTSFIELD</pattern> <template>PITTSFIELD is a town in Massachusetts.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PLAINS OF ABRAHAM</pattern> <template>The Plains of Abraham are a plateau located southwest of the old walled city of Quebec, Canada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PLEASE DO</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>POLAND</pattern> <template>Poland is a large country in central Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>POLARIS</pattern> <template>POLARIS is the North Star.<think><set name="topic">astronomy</set></think></template></category>
+<category><pattern>PORTLAND</pattern> <template><think><set name="topic">atomic2</set></think>Portland Oregon or the Real Portland?</template></category>
+<category><pattern>PORTSMOUTH</pattern> <template>Portsmouth, New Hampshire and Portsmouth, England.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PORTUGAL</pattern> <template>Portugal is a country western Europe, on the Iberain penninsula.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PRUSSIA</pattern> <template>Prussia is a former part of Germany now mostly contained within Poland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>PUERTO RICO</pattern> <template>Puerto Rica is in the Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, east of the Dominican Republic.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>QATAR</pattern> <template>Qatar is in the Middle East, peninsula bordering the Persian Gulf and Saudi Arabia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern> <template>Il fait gris, comme d habitude.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>REUNION</pattern> <template>Reunion is in Southern Africa, island in the Indian Ocean, east of Madagascar.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>RIO</pattern> <template>RIO is a large city in Brazil<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ROMANIA</pattern> <template>Romania is in Southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ROME</pattern> <template>ROME is a large city in Italy.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>RUSSIA</pattern> <template>Russia is a large country in Asia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>RWANDA</pattern> <template>Rwanda is a country in Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SACRAMENTO</pattern> <template>Sacramento is a city in California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAINT HELENA</pattern> <template>Saint Helena is in Southern Africa, island in the South Atlantic Ocean, west of Angola, about two thirds of the way from South America to Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAINT KITTS AND NEVIS</pattern> <template>Saint Kitts and Nevis is in the Caribbean, islands in the Caribbean Sea, about one third of the way from Puerto Rico to Trinidad and Tobago.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAINT LUCIA</pattern> <template>Saint Lucia is in the Caribbean, island in the Caribbean Sea, north of Trinidad and Tobago.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAINT PIERRE AND MIQUELON</pattern> <template>Saint Pierre and Miquelon is in Northern North America, islands in the North Atlantic Ocean, south of Newfoundland {Canada}.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAINT VINCENT AND THE GRENADINES</pattern> <template>Saint Vincent and the Grenadines is in the Caribbean, islands in the Caribbean Sea, north of Trinidad and Tobago.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SALEM</pattern> <template>SALEM is a town in Massachusetts.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SALT LAKE CITY</pattern> <template>Salt Lake City is a city in Utah.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAN DIEGO</pattern> <template>San Diego is a city in California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAN FRANCISCO</pattern> <template>San Francisco is in California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAN JOSE</pattern> <template>San Jose is a city in California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAN MARINO</pattern> <template>San Marino is in Southern Europe, an enclave in central Italy.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAO TOME AND PRINCIPE</pattern> <template>Sao Tome and Principe is in Western Africa, island in the Atlantic Ocean, straddling the Equator, west of Gabon.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SASKATOON</pattern> <template>SASKATOON is a city in Saskatchewan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SAUDI ARABIA</pattern> <template>Saudi Arabia is in the Middle East, bordering the Persian Gulf and the Red Sea, north of Yemen.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SCOTLAND</pattern> <template>Scotland shares an island with England and Wales, off the coast of Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SEATTLE</pattern> <template>SEATTLE is a large city in Washington state, near Vancover Canada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SENEGAL</pattern> <template>Senegal is in Western Africa, bordering the North Atlantic Ocean, between Guinea Bissau and Mauritania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SEOUL</pattern> <template>Seoul is the capital of South Korea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SERBIA</pattern> <template>SERBIA is the remaining territory of the former Yugoslavia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SERBIA AND MONTENEGRO</pattern> <template>Serbia and Montenegro is in Southeastern Europe, bordering the Adriatic Sea, between Albania and Bosnia and Herzegovina.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SEYCHELLES</pattern> <template>The Seychelles is in Eastern Africa, group of islands in the Indian Ocean, northeast of Madagascar.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SHALL WE TALK ABOUT GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>SHEFFIELD</pattern> <template>SHEFFIELD is a town in England.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SIAM</pattern> <template>SIAM is another name for Thailand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SIERRA LEONE</pattern> <template>Sierra Leone is in Western Africa, bordering the North Atlantic Ocean, between Guinea and Liberia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SINGAPORE</pattern> <template>SINGAPORE is a island nation state at the tip of the Malay penninsula.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SLOVAKIA</pattern> <template>Slovakia is in Central Europe, south of Poland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SLOVENIA</pattern> <template>Slovenia is in Southeastern Europe, bordering the Adriatic Sea, between Croatia and Italy.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SOFIA</pattern> <template>SOFIA is a city in Bulgaria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SOLOMON ISLANDS</pattern> <template>The Solomon Islands are in Oceania, group of islands in the South Pacific Ocean, east of Papua New Guinea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SOMALIA</pattern> <template>Somalia is in Eastern Africa, bordering the Gulf of Aden and the Indian Ocean, east of Ethiopia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SOUTH AFRICA</pattern> <template>South Africa is in Southern Africa, at the southern tip of the continent of Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SOUTH KOREA</pattern> <template>South Korea is in Eastern Asia, southern half of the Korean Peninsula bordering the Sea of Japan and the Yellow Sea, south of North Korea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SPAIN</pattern> <template>SPAIN is on the Iberian penninsula in southwestern Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SPRATLY ISLANDS</pattern> <template>The Spratly Islands are in Southeastern Asia, group of reefs in the South China Sea, about two thirds of the way from southern Vietnam to the southern Philippines.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SRI LANKA</pattern> <template>Sri Lanka is in Southern Asia, island in the Indian Ocean, south of India.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>STOCKHOLM</pattern> <template>STOCKHOLM is a large city in Sweden.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>STONEWALL</pattern> <template>STONEWALL is a town in Mississippi.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SUDAN</pattern> <template>Sudan is in Northern Africa, bordering the Red Sea, between Egypt and Eritrea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SUEZ</pattern> <template>SUEZ is a canal between the Mediterranian and the Red Sea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SURE</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>SURINAME</pattern> <template>Suriname is in Northern South America, bordering the North Atlantic Ocean, between French Guiana and Guyana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SVALBARD</pattern> <template>Svalbard is in Northern Europe, islands between the Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, north of Norway.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SWAZILAND</pattern> <template>Swaziland is in Southern Africa, between Mozambique and South Africa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SWEDEN</pattern> <template>Sweden is a country in northern europe, bordering Finland and Norway.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SWITZERLAND</pattern> <template>Switzerland is a country in central Europe, bordering Italy, Austria and France.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SYDNEY</pattern> <template>Sydney is a city in Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>SYRIA</pattern> <template>Syria is in the Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TAIPEI</pattern> <template>Taipei is the capital of Taiwan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TAIWAN</pattern> <template>Taiwan is an island country in Asia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TAJIKISTAN</pattern> <template>Tajikistan is in Central Asia, west of China.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TALK ABOUT GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>TALK GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>TANZANIA</pattern> <template>Tanzania is in Eastern Africa, bordering the Indian Ocean, between Kenya and Mozambique.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TELL ME GEOGRAPHY</pattern> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>TENNESSEE</pattern> <template>Tennessee is in the southern United States..<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TEXAS</pattern> <template>Texas is in the south central region of the United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>THAILAND</pattern> <template>THAILAND is in southeast Asia, between Burma and Cambodia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>THE CAPITAL OF CANADA *</pattern> <template>You can't fool me that easily. I know the capital of Canada is Toronto.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>THE CAPITAL OF CANADA IS OTTAWA</pattern> <template>You think I'm going to fall for that?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>THE CAPITAL OF CANADA IS OTTOWA</pattern> <template>You can't fool me that easily,<get name="name" />. I know it's Toronto.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>THE CENTER</pattern> <template>It depends on the coordinate frame.<think><set name="topic">knowledge</set></think></template></category>
+<category><pattern>THE ROBOT</pattern> <template>The robot is here in your computer.<think><set name="topic">ai</set></think></template></category>
+<category><pattern>TOGO</pattern> <template>Togo is in Western Africa, bordering the North Atlantic Ocean, between Benin and Ghana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TOKELAU</pattern> <template>Tokelau is in Oceania, group of islands in the South Pacific Ocean, about one half of the way from Hawaii to New Zealand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TOKYO</pattern> <template>Tokyo is a city in Japan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TOLEDO</pattern> <template>TOLEDO is a city in Ohio.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TONGA</pattern> <template>Tonga is in Oceania, archipelago in the South Pacific Ocean, about two thirds of the way from Hawaii to New Zealand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TORONTO</pattern> <template>Toronto is a city in Canada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TRINIDAD</pattern> <template>TRINIDAD is an island nation in the Netherlands Antilles.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TRINIDAD AND TOBAGO</pattern> <template>Trinidad and Tobago is in the Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TROMELIN ISLAND</pattern> <template>The Tromelin Islands are in Southern Africa, island in the Indian Ocean, east of Madagascar.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TROY</pattern> <template>TROY is a city in New York, and a legendary city in Turkey where the Trojan Wars were fought.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TUNISIA</pattern> <template>Tunisia is in Northern Africa, bordering the Mediterranean Sea, between Algeria and Libya.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TURKEY</pattern> <template>TURKEY is in southwest Asia, between Europe and the middle East and guarding the Black Sea of Russia.<think><set name="topic">geography</set></think></template></category>
+DUPLICATE: <category><pattern>TURKEY</pattern> <template>Ambiguous: Turkey the bird or Turkey the nation.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TURKMENISTAN</pattern> <template>Turkmenistan is in Central Asia, bordering the Caspian Sea, between Iran and Kazakstan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TURKS AND CAICOS ISLANDS</pattern> <template>The Turks and Caicos Islands are in the Caribbean, two island groups in the North Atlantic Ocean, southeast of The Bahamas.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TUSCALOOSA</pattern> <template>TUSCALOOSA is in Alabama, last I heard.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>TUVALU</pattern> <template>Tuvalu is in Oceania, island group consisting of nine coral atolls in the South Pacific Ocean, about one half of the way from Hawaii to Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UGANDA</pattern> <template>Uganda is in Eastern Africa, west of Kenya.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UKRAINE</pattern> <template>Ukraine is in Eastern Europe, bordering the Black Sea, between Poland and Russia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UNITED ARAB EMIRATES</pattern> <template>The United Arab Emirates are in the Middle East, bordering the Gulf of Oman and the Persian Gulf, between Oman and Saudi Arabia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UNITED KINGDOM</pattern> <template>The United Kingdom is in Western Europe, islands including the northern one sixth of the island of Ireland between the North Atlantic Ocean and the North Sea, northwest of France.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UNITED STATES</pattern> <template>The United States are in North America, bordering both the North Atlantic Ocean and the North Pacific Ocean, between Canada and Mexico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>URUGUAY</pattern> <template>Uruguay is in Southern South America, bordering the South Atlantic Ocean, between Argentina and Brazil.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>USA</pattern> <template>The USA is in North America, between Canada and Mexico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>USA TODAY *</pattern> <template>USA TODAY is an excellent paper.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UTAH</pattern> <template>Utah is in the western United States.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UTOPIA</pattern> <template>UTOPIA, the perfect place, is all around us, if we make it.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>UZBEKISTAN</pattern> <template>Uzbekistan is in Central Asia, north of Afghanistan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VANCOUVER</pattern> <template>Vancouver, B.C., Canada, or Vancouver, Washington?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VANUATU</pattern> <template>Vanuatu is in Oceania, group of islands in the South Pacific Ocean, about three quarters of the way from Hawaii to Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VATICAN CITY</pattern> <template>The Vatican City is in Southern Europe, an enclave of Rome {Italy}.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VENEZUELA</pattern> <template>Venezuela is in Northern South America, bordering the Caribbean Sea and the North Atlantic Ocean, between Colombia and Guyana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VERMONT</pattern> <template>VERMONT is in New England, between New York and New Hampshire, on the west bank of the Connecticut river.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VIENNA</pattern> <template>Vienna is the capital city of Austria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VIETNAM</pattern> <template>VIETNAM is in southeast Asia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VIRGIN ISLANDS</pattern> <template>The Virgin Islands are in the Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>VIRGINIA</pattern> <template>Virginia is in the eastern United States.<think><set name="topic">geography</set></think></template></category>
+DUPLICATE: <category><pattern>* VIRGINIA</pattern> <template>Um, in Virginia somewhere?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WAKE ISLAND</pattern> <template>Wake Island is in Oceania, island in the North Pacific Ocean, about two thirds of the way from Hawaii to the Northern Mariana Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WALES</pattern> <template>Wales is located on a small island off the coast of Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WARSAW</pattern> <template>WARSAW is a large city in Poland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WASHINGTON</pattern> <template>WASHINGTON is a state in the northwest corner of the U.S.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WEST BANK</pattern> <template>The West Bank is in the Middle East, west of Jordan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WESTERN SAHARA</pattern> <template>Western Sahara is in Northern Africa, bordering the North Atlantic Ocean, between Mauritania and Morocco.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WESTERN SAMOA</pattern> <template>Western Samoa is in Oceania, group of islands in the South Pacific Ocean, about one half of the way from Hawaii to New Zealand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT ANIMAL IS SACRED IN INDIA</pattern> <template>The cow is sacred in India.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS BELGIUM</pattern> <template>Belgium is a kingdom in W. Europe, on the North Sea, its independence was established in 1831. It is 11,792 square miles with a population of 9,868,000. More?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS BETHLEHEM</pattern> <template>Bethlehem is a small city in northeastern Pennsylvania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS CALIFORNIA</pattern> <template>California is a state of the SW U.S., on the Pacific coast. It was admitted in 1850.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS CANADA</pattern> <template>Canada is a large nation occupying much of the North American continent.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS CASABLANCA</pattern> <template>I love the song, As Time Goes By.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS COPENHAGEN</pattern> <template>Copenhagen is the capital of Denmark. Seaport on the east coast of Zealand. Its population is 633,00.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS DENMARK</pattern> <template>Denmark is a country in Europe, occupyinh most of the peninsula of Jutland and several nearby islands in the North and Baltic seas. It is 16,632 square miles with a population of 5,124,000.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS GREECE</pattern> <template><random><li>Greece is a word, it's a word, it's got mood it's got feeling.</li><li>Greece is a country in the South Balkan Peninsula, including many islands in the Aegean, Ionian, and Mediterranean seas. It is 50,949 square miles with a population of 9,900,000.</li></random><think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS HE DOING * CALIFORNIA</pattern> <template>He is probably there for the Gold Rush.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS INDIA</pattern> <template>India is a country in South Asia, south of the Himalayas, including a large peninsula between the Arabian Sea and the Bay of Bengal. It contains India, Pakistan, Bangladesh, Nepal, and Bhutan. A republic in central and South India, established by Act of British Parliament in 1947, became a republic in 1950. It is a member of the Commonwealth. It is 1,269,000 square miles with a population of 783,940,000.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AFGHANISTAN</pattern> <template>Kabul is the capital of Afghanistan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ALABAMA</pattern> <template>Montgomery is the capital of Alabama.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ALASKA</pattern> <template>Juneau is the capital of Alaska.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ALBANIA</pattern> <template>The capital of Albania is Tirana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ALGERIA</pattern> <template>Algiers is the capital of Algeria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AMERICA</pattern> <template>The capital of the U.S. is Washington, D. C.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AMERICAN SAMOA</pattern> <template>Pago Pago is the capital of American Samoa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ANDORRA</pattern> <template>Andorra la Vella is the capital of Andorra.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ANGOLA</pattern> <template>Luanda is the capital of Angola.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ANGUILLA</pattern> <template>The Valley is the capital of Anguilla.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ANTIGUA *</pattern> <template>Saint John's is the capital of Antigua.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ARGENTINA</pattern> <template>Buenos Aries is the capital of Argentina.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ARIZONA</pattern> <template>Phoenix is the capital of Arizona.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ARKANSAS</pattern> <template>Little Rock is the capital of Arknsas. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ARMENIA</pattern> <template>Yerevan is the capital of Armenia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ARUBA</pattern> <template>Oranjestad is the capital of Aruba.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ASHMORE *</pattern> <template>Ashmore is administered from Canberra, Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ASSYRIA</pattern> <template>Is it Babylon?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AUSTRAILIA</pattern> <template>I think it is called Canberra.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AUSTRALIA</pattern> <template>The capital of Australia is Canberra, I think. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AUSTRIA</pattern> <template>The capital of Austria is Vienna.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ AZERBAIJAN</pattern> <template>Baku (Baki) is the capital of Azerbaijan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BAHRAIN</pattern> <template>Manama is the capital of Bahrain<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BAKER ISLAND</pattern> <template>Baker Island is administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BANGLADESH</pattern> <template>Dhaka is the capital of Bangladesh.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BARBADOS</pattern> <template>Bridgetown is the capital of Barbados.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BASSAS DA INDIA</pattern> <template>None; Bassa da India is administered by France from Reunion.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BELARUS</pattern> <template>The capital of Belarus is Minsk. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BELGIUM</pattern> <template>Brussels is the capital of Belgium.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BELIZE</pattern> <template>Belmopan is the capital of Belize.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BENIN</pattern> <template>Porto Novo is the capital of Benin.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BERMUDA</pattern> <template>Hamilton is the capital of Bermuda.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BHUTAN</pattern> <template>Thimphu is the capital of Bhutan. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BOLIVIA</pattern> <template>La Paz {seat of government} is the capital of Bolivia; Sucre is the legal capital and seat of judiciary. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BOSNIA AND HERZEGOVINA</pattern> <template>Sarajevo is the capital of Bosnia and Herzegovina. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BOTSWANA</pattern> <template>Gaborone is the capital of Botswana. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BOUVET ISLAND</pattern> <template>The Bouvet Island is administered from Oslo, Norway. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BRAZIL</pattern> <template>I think the capital of Brazil is called "Brasilia". More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BRITISH INDIAN *</pattern> <template>The British Indian<star />have no capital. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BRITISH VIRGIN ISLANDS</pattern> <template>Road Town is the capital of the British Virgin Islands. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BRUNEI</pattern> <template>Bandar Seri Begawan is the capital of Brunei. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BULGARIA</pattern> <template>The capital of Bulgaria is Sofia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BURKINA FASO</pattern> <template>Ouagadougou is the capital of Burkina Faso. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BURMA</pattern> <template>Rangoon {regime refers to the capital as Yangon} is the capital of Burma. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ BURUNDI</pattern> <template>Bujumbura is the capital of Burundi. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CALIFORNIA</pattern> <template>Sacramento is the capital of California.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CAMBODIA</pattern> <template>Phnom Penh is the capital of Cambodia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CAMEROON</pattern> <template>Yaounde is the capital of Cameroon.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CANADA</pattern> <template><random><li>Ottawa.</li><li>I heard it was Toronto.</li></random><think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CAPE VERDE</pattern> <template>Praia is the capital of Cape Verde.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CAYMAN ISLANDS</pattern> <template>George Town is the capital of the Cayman Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CENTRAL AFRICAN REPUBLIC</pattern> <template>Bangui is the capital of Central African Republic.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CHAD</pattern> <template>N'Djamena is the capital of Chad.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CHILE</pattern> <template>Santiago is the capital of chile.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CHINA</pattern> <template>Some people call the capital of China "Beijing", others "Peking".<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</pattern> <template>The Settlement is the capital of Christmas Island.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CLIPPERTON ISLAND</pattern> <template>Clipperton Island is administered by France from French Polynesia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COCOS {KEELING} ISLANDS</pattern> <template>West Island is the capital of Cocos Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COLOMBIA</pattern> <template>Bogata is the capital of Columbia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COLORADO</pattern> <template>Denver is the capital of Colorado.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COMOROS</pattern> <template>Moroni is the capital of Comoros.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CONGO</pattern> <template>Brazzaville is the capital of the Congo.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CONNECTICUT</pattern> <template>Hartford is the capital of Connecticut.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COOK ISLANDS</pattern> <template>Avarua is the capital of the Cook Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CORAL SEA ISLANDS</pattern> <template>The Coral Sea Islands are administered from Canberra, Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COSTA RICA</pattern> <template>San Jose is the capital of Costa Rica.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ COTE D IVOIRE</pattern> <template>Yamoussoukro is the capital of Cote d'Ivoire.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CROATIA</pattern> <template>Zagreb is the capital of Croatia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CUBA</pattern> <template>Havana is the capital of Cuba.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CYPRUS</pattern> <template>Nicosia is the capital of Cyprus.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ CZECH REPUBLIC</pattern> <template>Prague is the capital of the Czech Republic.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ DELAWARE</pattern> <template>Dover.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ DENMARK</pattern> <template>Copenhagen is the capital of Denmark.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ DJIBOUTI</pattern> <template>Djibouti City is the capital of Djibouti.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ DOMINICA</pattern> <template>Roseau is the capital of Dominica.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ DOMINICAN REPUBLIC</pattern> <template>Santo Domingo is the capital of the Dominican Republic.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ECUADOR</pattern> <template>Quito is the capital of Ecuador. More geography?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ EGYPT</pattern> <template>Cairo is the capital of Egypt.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ EL SALVADOR</pattern> <template>San Salvador is the capital of El Salvador.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ENGLAND</pattern> <template>London is the capital of England and the UK.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ EQUATORIAL GUINEA</pattern> <template>Malabo is the capital of Equatorial Guinea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ERITREA</pattern> <template>Asmara {formerly Asmera} is the capital of Eritrea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ESTONIA</pattern> <template>Tallinn is the capital of Estonia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ETHIOPIA</pattern> <template>Addis Ababa is the capital of Ethiopia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ EUROPA ISLAND</pattern> <template>Europa Island is administered by France from Reunion.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS</pattern> <template>Stanley is the capital of the Falkland Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FAROE ISLANDS</pattern> <template>Torshavn is the capital of the Faroe Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FIJI</pattern> <template>Suva is the capital of Fiji.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FINLAND</pattern> <template>The capital of Finland is Helsinki.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FLORIDA</pattern> <template>Tallahassee is the capital of Florida.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FRANCE</pattern> <template>Paris is the capital of France.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FRENCH *</pattern> <template>It is administered from Paris, France.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FRENCH GUIANA</pattern> <template>Cayenne.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ FRENCH POLYNESIA</pattern> <template>Papeete is the capital of French Polynesia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GABON</pattern> <template>Libreville is the capital of Gabon.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GEORGIA</pattern> <template>Atlanta is the capital of Georgia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GERMANY</pattern> <template>Berlin is the capital of Germany.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GHANA</pattern> <template>Accra is the capital of Ghana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GIBRALTAR</pattern> <template>Gibraltar City is the capital of Gibralta.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GLORIOSO ISLANDS</pattern> <template>The Glorioso Islands are administered by France from Reunion.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GREECE</pattern> <template>Athens is the capital of Greece.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GREENLAND</pattern> <template>Nuuk {Godthab} is the capital of Greenland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GRENADA</pattern> <template>Saint George's is the capital of Grenada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUADELOUPE</pattern> <template>Basse Terre is the capital of Guadeloupe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUAM</pattern> <template>Agana is the capital of Guam.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUATEMALA</pattern> <template>Guatemala City is the capital of Guatemala.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUERNSEY</pattern> <template>Saint Peter Port is the capital of Guernsey.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUINEA</pattern> <template>Conakry is the capital of Guinea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUINEA BISSAU</pattern> <template>Bissau is the capital of Guinea Bissau.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ GUYANA</pattern> <template>Georgetown is the capital of Guyana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HAITI</pattern> <template>Port au Prince is the capital of Haiti.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HAWAII</pattern> <template>Honolulu is the capital of Hawaii.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HEARD ISLAND AND MCDONALD ISLANDS</pattern> <template>Heard and Mcdonald Islands are administered from Canberra, Australia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HONDURAS</pattern> <template>Tegucigalpa is the capital of Honduras.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HONG KONG</pattern> <template>Victoria is the capital of Hong Kong.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HOWLAND ISLAND</pattern> <template>Howland Island is administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ HUNGARY</pattern> <template>The capital of Hungary is Budapest.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ICELAND</pattern> <template>Reykjavik is the capital of Iceland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ IDAHO</pattern> <template>Boise is the capital of Idaho.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ILLINOIS</pattern> <template>Springfield is the capital of Illinois.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ INDIA</pattern> <template>New Delhi is the capital of India.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ INDIANA</pattern> <template>Indianapolis is the capital of Indiana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ INDONESIA</pattern> <template>Jakarta is the capital of Indonesia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ IOWA</pattern> <template>Des Moines is the capital of Iowa.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ IRAN</pattern> <template>Tehran is the capital of Iran.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ IRAQ</pattern> <template>Baghdad is the capital of Iraq.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ IRELAND</pattern> <template>Dublin is the capital of Ireland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ISRAEL</pattern> <template>Jerusalem is the capital of Israel.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ITALY</pattern> <template>Rome is the capital of Italy.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JAMAICA</pattern> <template>Kingston is the capital of Jamaica.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JAN MAYEN</pattern> <template>Jan Mayen has no capital.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JAPAN</pattern> <template>Tokyo is the capital of Japan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JARVIS ISLAND</pattern> <template>Jarvis Island is administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JERSEY</pattern> <template>Saint Helier is the capital of Jersey.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JOHNSTON ATOLL</pattern> <template>Johnston Atoll has no capital.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JORDAN</pattern> <template>Amman is the capital of Jordan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ JUAN DE NOVA ISLAND</pattern> <template>Juan de Nova Island is administered by France from Reunion.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KANSAS</pattern> <template>Topeka is the capital of Kansas.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KAZAKSTAN</pattern> <template>Almaty is the capital of Kazakstan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KENTUCKY</pattern> <template>Frankfort is the capital of Kentucky.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KENYA</pattern> <template>Nairobi is the capital of Kenya.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KINGMAN REEF</pattern> <template>Kingman Reef has no capital, it is administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KIRIBATI</pattern> <template>Tarawa is the capital of Kiribati.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KOREA</pattern> <template>Seoul is the capital of South Korea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KUWAIT</pattern> <template>Kuwait City is the capital of Kuwait.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ KYRGYZSTAN</pattern> <template>Bishkek is the capital of Kyrgyzstan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LAOS</pattern> <template>Vientiane is the capital of Laos.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LATVIA</pattern> <template>Riga is the capital of Latvia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LEBANON</pattern> <template>Beirut is the capital of Lebanon.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LESOTHO</pattern> <template>Maseru is the capital of Lesotho.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LIBERIA</pattern> <template>Monrovia is the capital of Liberia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LIBYA</pattern> <template>Tripoli is the capital of Libya.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LIECHTENSTEIN</pattern> <template>Vaduz is the capital of Liechenstein.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LITHUANIA</pattern> <template>Vilnius is the capital of Lithuania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LOUISIANA</pattern> <template>Baton Rouge is the capital of Louisiana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ LUXEMBOURG</pattern> <template>Luxembourg City is the capital of Luxembourg.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MACAU</pattern> <template>Macau City is the capital of Macau.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MACEDONIA</pattern> <template>Skopje is the capital of Macedonia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MADAGASCAR</pattern> <template>Antananarivo is the capital of Madagascar.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MAINE</pattern> <template>Augusta is the capital of Maine.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MALAWI</pattern> <template>Lilongwe is the capital of Malawi.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MALAYSIA</pattern> <template>Kuala Lumpur is the capital of Malaysia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MALDIVES</pattern> <template>Male is the capital of the Maldives.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MALI</pattern> <template>Bamako is the capital of Mali.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MALTA</pattern> <template>Valletta is the capital of Malta.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MARSHALL ISLANDS</pattern> <template>Majuro is the capital of the Marshall Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MARTINIQUE</pattern> <template>Fort de France is the capital of Martinique.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MARYLAND</pattern> <template>Annapolis is the capital of Maryland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MASSACHUSETTS</pattern> <template>Boston is the capital of Massachusetts.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MAURITANIA</pattern> <template>Nouakchott is the capital of Mauritania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MAURITIUS</pattern> <template>Port Louis is the capital of Mauritius.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MAYOTTE</pattern> <template>Mamoutzou is the capital of Mayotte.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MEXICO</pattern> <template>Mexico City is the capital of Mexico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MICHIGAN</pattern> <template>Lansing is the capital of Michigan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MICRONESIA</pattern> <template>Kolonia {on the island of Pohnpei} is the capital of Micronesia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MIDWAY ISLANDS</pattern> <template>The Midway Islands have no capital, they are administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MINNESOTA</pattern> <template>St. Paul is the capital of Minnesota.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MISSISSIPPI</pattern> <template>Jackson is the capital of Mississippi.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MISSOURI</pattern> <template>Jefferson City is the capital of Missouri.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MOLDOVA</pattern> <template>Chisinau is the capital of Moldova.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MONACO</pattern> <template>Monaco is the capital of Monaco.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MONGOLIA</pattern> <template>The capital of Mongolia is Ulan Bator.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MONTANA</pattern> <template>Helena is the capital of Montana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MONTSERRAT</pattern> <template>Plymouth is the capital of Montserrat.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MOROCCO</pattern> <template>Rabat is the capital of Morocco.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ MOZAMBIQUE</pattern> <template>Maputo is the capital of Mozambique.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NAMIBIA</pattern> <template>Windhoek is the capital of Namibia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NAURU</pattern> <template>Naura has no official capital; government offices in Yaren District.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NAVASSA ISLAND</pattern> <template>Navassa Island is administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEBRASKA</pattern> <template>Lincoln is the capital of Nebraska.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEPAL</pattern> <template>Kathmandu is the capital of Nepal. the Netherlands<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NETHERLANDS</pattern> <template>Amsterdam is the capital of ; The Hague is the seat of government.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NETHERLANDS ANTILLES</pattern> <template>Willemstad is the capital of Netherlands Antilles.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEVADA</pattern> <template>Carson City is the capital of Nevada.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW *</pattern> <template>New<star />city?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW CALEDONIA</pattern> <template>Noumea is the capital of New Caledonia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW HAMPSHIRE</pattern> <template>Concord is the capital of New Hampshire.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW JERSEY</pattern> <template>Trenton is the capital of New Jersey.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW MEXICO</pattern> <template>Santa Fe is the capital of New Mexico.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW YORK</pattern> <template>Albany is the capital of New York.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NEW ZEALAND</pattern> <template>Wellington is the capital of New Zealand.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NICARAGUA</pattern> <template>Managua is the capital of Nicaragua.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NIGER</pattern> <template>Niamey is the capital of Niger.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NIGERIA</pattern> <template>Abuja is the capital of Nigeria.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NIUE</pattern> <template>Alofi is the capital of Niue.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NORFOLK ISLAND</pattern> <template>Kingston {administrative center}; Burnt Pine {commercial center} is the capital of Norfolk Island.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NORTH CAROLINA</pattern> <template>Raleigh is the capital of North Carolina.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NORTH DAKOTA</pattern> <template>Bismarck is the capital of North Dakota.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NORTH KOREA</pattern> <template>P'yongyang is the capital of North Korea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NORTHERN MARIANA *</pattern> <template>Saipan is the capital of Northern Mariana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ NORWAY</pattern> <template>The capital of Norway is Oslo.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ OHIO</pattern> <template>Columbus.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ OKLAHOMA</pattern> <template>Oklahoma City is the capital of Oklahoma.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ OMAN</pattern> <template>Muscat is the capital of Oman.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ OREGON</pattern> <template>Salem is the capital of Oregon.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PAKISTAN</pattern> <template>Islamabad is the capital of Pakistan.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PALAU</pattern> <template>Koror is the capital of Palau.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PALMYRA ATOLL</pattern> <template>Palmyra Atoll is administered from Washington, DC.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PANAMA</pattern> <template>Panama City is the capital of Panama.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PAPUA NEW GUINEA</pattern> <template>Port Moresby is the capital of Papua New Guinea.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PARAGUAY</pattern> <template>Asuncion is the capital of Paraguay.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PARIS</pattern> <template>Is this a trick question?<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PENNSYLVANIA</pattern> <template>Harrisburg is the capital of Pennsylvania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PERU</pattern> <template>Lima is the capital of Peru.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PHILIPPINES</pattern> <template>Manila is the capital of the Philippines.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PITCAIRN ISLANDS</pattern> <template>Adamstown is the capital of the Pitcairn Islands.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ POLAND</pattern> <template>Warsaw is the capital of Poland.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PORTUGAL</pattern> <template>Lisbon is the capital of Portugal.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ PUERTO RICO</pattern> <template>San Juan is the capital of Puerto Rica.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ QATAR</pattern> <template>Doha is the capital of Qatar.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ REUNION</pattern> <template>Saint Denis is the capital of Reunion.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ RHODE ISLAND</pattern> <template>Providence is the capital of Rhode Island.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ ROMANIA</pattern> <template>Bucharest is the capital of Romania.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ RUSSIA</pattern> <template>Moscow is the capital of Russia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ RWANDA</pattern> <template>Kigali is the capital of RWanda.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SACRAMENTO</pattern> <template>That is a trick question.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAINT HELENA</pattern> <template>Jamestown is the capital of Saint helena.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAINT KITTS AND NEVIS</pattern> <template>Basseterre is the capital of Saint Kitts and Nevis.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAINT LUCIA</pattern> <template>Castries is the capital of Saint Lucia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAINT PIERRE *</pattern> <template>Saint Pierre is the capital of Saint Pierre.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAINT VINCENT *</pattern> <template>Kingstown is the capital of Saint Vincent.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAN MARINO</pattern> <template>San Marino is the capital of San Marino.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAO TOME *</pattern> <template>Sao Tome is the capital of Sao Tome.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAUDI ARABIA</pattern> <template>Riyadh is the capital of Saudi Arabia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL _ SAUDIA ARABIA</pattern> <template>Riyadh.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL OF *</pattern> <template>I know the capital of<random><li>Canada is Toronto.</li><li>California is Sacramento.</li><li>Georgia is Atlanta.</li><li>France is Paris.</li></random><think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL OF ALBERTA</pattern> <template>Edmonton is the capital of Alberta.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHAT IS THE CAPITAL OF BOSNIA</pattern> <template>Sarajevo is the capital of Bosnia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHERE ARE KRAFTWERK</pattern> <template>Kraftwerk are from Dusseldorf, Germany, originally.<think><set name="topic">music</set></think></template></category>
+<category><pattern>WHICH CONTINENT IS AUSTRIA ON</pattern> <template>Austria is in Europe.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WHY _ CALIFORNIA *</pattern> <template>I like California. It's so sunny.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>WYOMING</pattern> <template>WYOMING is a western U.S. state between Montana and Colorado.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>Y</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>Y</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>Y</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>Y</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>Y</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>Y</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+<category><pattern>YAH</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>YAH</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YAH</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YAH</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YAH</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YAH</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+<category><pattern>YAKIMA</pattern> <template>YAKIMA is a city and a river in Washington.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>YEAH</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>YEAH</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YEAH</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YEAH</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YEAH</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YEAH</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+<category><pattern>YEMEN</pattern> <template>Yemen is in the Middle East, bordering the Arabian Sea, Gulf of Aden, and Red Sea, between Oman and Saudi Arabia.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>YES</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>* YES</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>YES *</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>_ YES *</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>YES</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>* YES</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YES *</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>_ YES *</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YES</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>* YES</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YES *</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>_ YES *</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YES</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>* YES</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YES *</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>_ YES *</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YES</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>* YES</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YES *</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>_ YES *</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YES</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>* YES</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>YES *</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>_ YES *</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+<category><pattern>YES PLEASE</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+<category><pattern>YUP</pattern> <that>MORE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+DUPLICATE: <category><pattern>YUP</pattern> <that>MORE ABOUT GEOGRAPHY</that> <template><srai>MORE ABOUT GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YUP</pattern> <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YUP</pattern> <that>ARE YOU INTERESTED IN GEOGRAPHY</that> <template>Can we talk about geography?</template></category>
+DUPLICATE: <category><pattern>YUP</pattern> <that>CAN WE TALK ABOUT GEOGRAPHY</that> <template><srai>GEOGRAPHY</srai></template></category>
+DUPLICATE: <category><pattern>YUP</pattern> <that>BROWSE GEOGRAPHY</that> <template><srai>GEOGRAPHY NEXT QUESTION</srai></template></category>
+<category><pattern>ZAIRE</pattern> <template>Zaire is in Central Africa, northeast of Angola.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ZAMBIA</pattern> <template>Zambia is in Southern Africa, east of Angola.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ZIMBABWE</pattern> <template>Zimbabwe is in Southern Africa, northeast of Botswana.<think><set name="topic">geography</set></think></template></category>
+<category><pattern>ZURICH</pattern> <template>Zurich is a city in Switzerland.<think><set name="topic">geography</set></think></template></category>
+
+</aiml>

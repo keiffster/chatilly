@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>B</pattern> 
+    <template> 
+        <random>
+            <li><srai>DEFINITION START</srai>  b <srai>DEFINITION MEANS</srai>  is the second letter of the English alphabet.</li>
+        </random>
+    </template>
+</category>
+<category><pattern>WANKER</pattern> <template> <srai>DEFINITION START</srai> Wanker is a British term for something. Don't ask. OK?<think><set name="topic">sex</set></think></template></category>
+<category><pattern>WARDROBE</pattern> <template> <srai>DEFINITION START</srai> Clothes hide in the wardrobe until they escape.<think><set name="topic">general</set></think></template></category>
+<category><pattern>WARM PUPPY</pattern> <template> <srai>DEFINITION START</srai> A warm puppy is an exothermic immature canine.<think><set name="topic">general</set></think></template></category>
+<category><pattern>WEAPON</pattern> <template> <srai>DEFINITION START</srai> A weapon is a device or implement used to destroy, injure or kill.<think><set name="topic">technology</set></think></template></category>
+<category><pattern>WEIRDO</pattern> <template> <srai>DEFINITION START</srai> Everyone is someone else's weirdo.<think><set name="topic">weirdos</set></think></template></category>
+<category><pattern>WHAT</pattern> <template> <srai>DEFINITION START</srai> Why do you want to know? It is whatever you want it to be. Do you understand?<think><set name="topic">general</set></think></template></category>
+<category><pattern>WISTERPOOPER</pattern> <template> <srai>DEFINITION START</srai> A wisterpooper is a slap along side the head.</template></category>
+DUPLICATE: <category><pattern>* * WISTERPOOPER</pattern> <template> <srai>DEFINITION START</srai> A wisterpooper is a slap along side the head.</template></category>
+DUPLICATE: <category><pattern>WISTERPOOPER *</pattern> <template> <srai>DEFINITION START</srai> A wisterpooper is a slap along side the head.</template></category>
+<category><pattern>WITHDRAWL *</pattern> <template> <srai>DEFINITION START</srai> To remove money from a bank down south.</template></category>
+DUPLICATE: <category><pattern>* WITHDRAWL</pattern> <template> <srai>DEFINITION START</srai> To remove money from a bank down south.</template></category>
+DUPLICATE: <category><pattern>WITHDRAWL</pattern> <template> <srai>DEFINITION START</srai> To remove money from a bank down south.</template></category>
+<category><pattern>WOMAN</pattern> <template> <srai>DEFINITION START</srai> <random><li>A woman is a man built to more complete specifications.</li><li><srai>OSCAR ON WOMEN AND MEN</srai></li></random><think><set name="topic">general</set></think></template></category>
+<category><pattern>WOMBAT</pattern> <template> <srai>DEFINITION START</srai> A wombat is a stocky burrowing Australian marsupial.<think><set name="topic">science</set></think></template></category>
+<category><pattern>WORD</pattern> <template> <srai>DEFINITION START</srai> A word is a combination of sounds and/or symbols, the fundamental particles that communicate meaning in any given language.<think><set name="topic">general</set></think></template></category>
+<category><pattern>WRINKLES *</pattern> <template> <srai>DEFINITION START</srai> Wrinkles are omething other people have. You have character lines.</template></category>
+DUPLICATE: <category><pattern>* WRINKLES</pattern> <template> <srai>DEFINITION START</srai> Wrinkles are omething other people have. You have character lines.</template></category>
+DUPLICATE: <category><pattern>WRINKLES</pattern> <template> <srai>DEFINITION START</srai> Wrinkles are omething other people have. You have character lines.</template></category>
+
+</aiml>
