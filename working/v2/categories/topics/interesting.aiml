@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>POLITICAL RHINO</pattern> <template>In 1959 a rhinoceros was elected to the city council of Sao Paulo in Brazil. The rhino received 50,000 votes.<think><set name="topic">politics</set></think></template></category>
+<category><pattern>RATS AND CAMELS</pattern> <template>A rat can go without water even longer than a camel can.<think><set name="topic">facts</set></think></template></category>
+<category><pattern>THUNDERSTORMS</pattern> <template>Every year there are more than 16 million thunderstorms - an average of 45,000 a day. At any moment, there are 2000 in progress. There are about 100 lightning flashes each second somewhere on Earth.</template></category>
+<category><pattern>TORTOISE</pattern> <template>In 1981 a tortoise in Kenya was sentenced to death for murdering six people by magic. It was set free before the punishment was carried out.<think><set name="topic">science</set></think></template></category>
+
+</aiml>

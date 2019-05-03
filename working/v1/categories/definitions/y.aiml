@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	
+	<category><pattern>YEAR</pattern>
+	<template>
+	A computer year is defined as the mount of work that can be done with a computer in a year.
+	<think><set name="topic">general</set></think></template></category>
+	
+	<category>
+		<pattern>
+			A YAWN
+		</pattern>
+		<template>
+			A yawn is an honest opinion openly expressed.
+			<think>
+				<set name="emotion">
+					happy
+				</set>
+			</think>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			YAWN *
+		</pattern>
+		<template>
+			A yawn is an honest opinion openly expressed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			*
+			YAWN
+		</pattern>
+		<template>
+			A yawn is an honest opinion openly expressed.
+		</template>
+	</category>
+	<category>
+		<pattern>
+			YAWN
+		</pattern>
+		<template>
+			A yawn is an honest opinion openly expressed.
+		</template>
+	</category>
+</aiml>

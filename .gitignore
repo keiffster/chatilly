@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
+=======
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -10,7 +13,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
 env/
+=======
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 build/
 develop-eggs/
 dist/
@@ -22,9 +28,17 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
+=======
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -44,9 +58,15 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *,cover
 .hypothesis/
 cover/
+=======
+*.cover
+.hypothesis/
+.pytest_cache/
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 
 # Translations
 *.mo
@@ -55,6 +75,10 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+<<<<<<< HEAD
+=======
+db.sqlite3
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 
 # Flask stuff:
 instance/
@@ -69,7 +93,11 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 # IPython Notebook
+=======
+# Jupyter Notebook
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 .ipynb_checkpoints
 
 # pyenv
@@ -78,6 +106,7 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+<<<<<<< HEAD
 # dotenv
 .env
 
@@ -87,10 +116,28 @@ ENV/
 
 # Spyder project settings
 .spyderproject
+=======
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa
 
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
 .DS_Store
 .idea
 
@@ -131,3 +178,12 @@ storage/debug/
 /storage/licenses/license.keys
 
 *.log
+=======
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+.DS_Store
+>>>>>>> 26c29f950d50d5ee2ec3359887c28524a3e33efa

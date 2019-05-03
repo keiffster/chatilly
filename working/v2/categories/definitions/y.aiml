@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>B</pattern> 
+    <template> 
+        <random>
+            <li><srai>DEFINITION START</srai>  b <srai>DEFINITION MEANS</srai>  is the second letter of the English alphabet.</li>
+        </random>
+    </template>
+</category>
+<category><pattern>A YAWN</pattern> <template> <srai>DEFINITION START</srai> A yawn is an honest opinion openly expressed.</template></category>
+<category><pattern>YAWN *</pattern> <template> <srai>DEFINITION START</srai> A yawn is an honest opinion openly expressed.</template></category>
+DUPLICATE: <category><pattern>* YAWN</pattern> <template> <srai>DEFINITION START</srai> A yawn is an honest opinion openly expressed.</template></category>
+DUPLICATE: <category><pattern>YAWN</pattern> <template> <srai>DEFINITION START</srai> A yawn is an honest opinion openly expressed.</template></category>
+<category><pattern>YEAR</pattern> <template> <srai>DEFINITION START</srai> A computer year is defined as the mount of work that can be done with a computer in a year.<think><set name="topic">general</set></think></template></category>
+
+</aiml>

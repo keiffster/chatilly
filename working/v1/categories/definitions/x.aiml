@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>
+			XENOPHOBIA
+		</pattern>
+		<template>
+			Xenophobia means fear of Buddhists, I think.
+			<think>
+				<set name="topic">
+					xenophobia
+				</set>
+			</think>
+			<think>
+				<set name="emotion">
+					happy
+				</set>
+			</think>
+		</template>
+	</category>
+</aiml>
